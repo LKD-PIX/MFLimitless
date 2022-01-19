@@ -1,0 +1,74 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count",
+      "config": {
+        "count": 7
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:square",
+              "config": {}
+            },
+            "inner": {
+              "type": "minecraft:heightmap",
+              "config": {
+                "heightmap": "MOTION_BLOCKING"
+              }
+            }
+          }
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:spread_32_above",
+              "config": {}
+            },
+            "feature": {
+              "type": "minecraft:flower",
+              "config": {
+                "can_replace": false,
+                "project": true,
+                "need_water": false,
+                "xspread": 21,
+                "yspread": 5,
+                "zspread": 21,
+                "tries": 64,
+                "state_provider": {
+                  "type": "minecraft:weighted_state_provider",
+                  "entries": [
+                    {
+                      "weight": 1,
+                      "data": {
+                        "Name": "minecraft:cornflower"
+                      }
+                    },
+                    {
+                      "weight": 4,
+                      "data": {
+                        "Name": "minecraft:blue_orchid"
+                      }
+                    }
+                  ]
+                },
+                "block_placer": {
+                  "type": "minecraft:simple_block_placer"
+                },
+                "whitelist": [],
+                "blacklist": []
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

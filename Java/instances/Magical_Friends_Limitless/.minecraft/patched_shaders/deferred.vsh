@@ -637,7 +637,7 @@ Complementary Shaders by EminGT, based on BSL Shaders by Capt Tatsu
   
 
 
-//#define COLORED_LIGHT_DEFINE
+  
 
   
   

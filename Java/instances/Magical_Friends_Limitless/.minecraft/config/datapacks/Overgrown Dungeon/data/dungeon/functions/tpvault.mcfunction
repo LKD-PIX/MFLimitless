@@ -1,0 +1,1 @@
+tp @s @e[tag=vault.od,limit=1,sort=nearest]

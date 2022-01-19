@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "Charged Skeleton"
+        },
+        "description": {
+            "text": "A stronger skeleton warrior or bowman counterpart. Inflict fire on damage via sword or bow. Can respawn from possesed bones."
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{display:{Name:\"{\\\"text\\\":\\\"Wither Invulnerable\\\"}\"},SkullOwner:{Id:[I;1766059203,1341869357,-2143464818,-1242958154],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRhZmIyM2VmYzU3ZjI1MTg3OGU1MzI4ZDExY2IwZWVmODdiNzljODdiMjU0YTdlYzcyMjk2ZjkzNjNlZjdjIn19fQ==\"}]}}}"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "i": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "i"
+        ]
+    ],
+    "parent": "tetartos:pipe_guardian"
+}

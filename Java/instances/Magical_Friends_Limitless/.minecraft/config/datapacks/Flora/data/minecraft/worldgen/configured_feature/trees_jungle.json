@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 50,
+        "extra_count": 1,
+        "extra_chance": 0.1
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:square",
+              "config": {}
+            },
+            "inner": {
+              "type": "minecraft:decorated",
+              "config": {
+                "outer": {
+                  "type": "minecraft:water_depth_threshold",
+                  "config": {
+                    "max_water_depth": 0
+                  }
+                },
+                "inner": {
+                  "type": "minecraft:heightmap",
+                  "config": {
+                    "heightmap": "OCEAN_FLOOR"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "feature": {
+          "type": "minecraft:random_selector",
+          "config": {
+            "features": [
+              {
+                "chance": 0.031,
+                "feature": "bounty:redmushbee"
+              },
+              {
+                "chance": 0.5,
+                "feature": "minecraft:jungle_bush"
+              },
+              {
+                "chance": 0.33333334,
+                "feature": "minecraft:mega_jungle_tree"
+              }
+            ],
+            "default": "minecraft:jungle_tree"
+          }
+        }
+      }
+    }
+  }
+}

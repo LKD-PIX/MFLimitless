@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "Reformed Skeleton"
+        },
+        "description": {
+            "text": "A weaker skeleton formed from a possessed bone. Hits you with it's bony hands."
+        },
+        "icon": {
+            "item": "minecraft:skeleton_skull"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "i": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "i"
+        ]
+    ],
+    "parent": "tetartos:skeleton_charged"
+}

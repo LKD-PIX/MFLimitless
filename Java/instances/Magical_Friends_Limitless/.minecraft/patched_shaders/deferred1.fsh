@@ -633,7 +633,7 @@ Complementary Shaders by EminGT, based on BSL Shaders by Capt Tatsu
   
 
 
-//#define COLORED_LIGHT_DEFINE
+  
 
   
   
@@ -1053,8 +1053,8 @@ uniform sampler2D noisetex;
 
 
 
-
-
+uniform sampler2D colortex8;
+uniform sampler2D colortex9;
 
 
 
@@ -1066,8 +1066,8 @@ uniform sampler2D noisetex;
 const bool colortex0MipmapEnabled = true;
 
 
-
-
+const bool colortex8MipmapEnabled = true;
+const bool colortex9Clear = false;
 
 
 //Common Variables//
@@ -1176,7 +1176,7 @@ float GetAmbientOcclusion(float z) {
 
 
 float CalcNightBrightness() {
-	float nightBright = 1.00;
+	float nightBright = 0.85;
 	
 		
 		
@@ -1240,11 +1240,11 @@ vec3 skyColCustom = sky_ColorSqrt * sky_ColorSqrt;
 
 vec3 skyMult = vec3(255, 255, 255) * 1.00 / 255.0;
 
-vec3 blocklightColSqrt = vec3(224, 172, 140) * 0.45 / 255.0;
-vec3 blocklightCol = blocklightColSqrt * blocklightColSqrt;
 
 
 
+vec3 blocklightColSqrt = vec3(0.387, 0.31, 0.247);
+vec3 blocklightCol = vec3(0.15, 0.096, 0.061);
 
 
     vec4 underwaterColor = vec4(pow(fogColor, vec3(0.33, 0.21, 0.26)) * 1.00 * 0.2, 1.0);
@@ -2346,8 +2346,8 @@ void main() {
 	float z    = texture2D(depthtex0, texCoord).r;
 
 	
-		
-		
+		vec3 lightAlbedo = texture2DLod(colortex8, texCoord, log2(viewHeight)).rgb;
+		vec3 lightBuffer = texture2D(colortex9, texCoord).rgb;
 	
 
 	float dither = Bayer64(gl_FragCoord.xy);
@@ -2681,14 +2681,14 @@ void main() {
 	
 
 	
-		
-		
-		
-		
+		float sumlightAlbedo = max(lightAlbedo.r + lightAlbedo.g + lightAlbedo.b, 0.0001);
+		lightAlbedo = lightAlbedo / sumlightAlbedo;
+		lightAlbedo *= lightAlbedo;
+		lightAlbedo *= 0.75 * vec3(2.0, 1.8, 2.0);
 
-		
-		    
-		
+		float lightSpeed = 0.01;
+		    lightBuffer = mix(lightBuffer, blocklightCol, lightSpeed * 0.25);
+		vec3 finalLight = mix(lightBuffer, lightAlbedo, lightSpeed * float(sumlightAlbedo > 0.0002));
 	
 	
 	/*DRAWBUFFERS:05*/
@@ -2696,8 +2696,8 @@ void main() {
 	gl_FragData[1] = vec4(pow(color.rgb, vec3(0.125)) * 0.5, 1.0);
 
 	
-	
-	
+	/*DRAWBUFFERS:059*/
+	gl_FragData[2] = vec4(finalLight, 1.0);
 	
 }
 

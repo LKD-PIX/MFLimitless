@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "Treasure"
+        },
+        "description": {
+            "text": "There is loot to be found in the citadel's rare crying obsidian vault."
+        },
+        "icon": {
+            "item": "minecraft:crying_obsidian"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "i": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "i"
+        ]
+    ],
+    "parent": "tetartos:overgrown_locate"
+}

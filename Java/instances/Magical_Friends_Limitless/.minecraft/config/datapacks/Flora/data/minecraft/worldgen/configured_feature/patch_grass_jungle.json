@@ -1,0 +1,96 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count",
+      "config": {
+        "count": 14
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:square",
+              "config": {}
+            },
+            "inner": {
+              "type": "minecraft:heightmap_spread_double",
+              "config": {
+                "heightmap": "MOTION_BLOCKING"
+              }
+            }
+          }
+        },
+        "feature": {
+          "type": "minecraft:random_patch",
+          "config": {
+            "can_replace": false,
+            "project": true,
+            "need_water": false,
+            "xspread": 7,
+            "yspread": 3,
+            "zspread": 7,
+            "tries": 87,
+            "state_provider": {
+              "type": "minecraft:weighted_state_provider",
+              "entries": [
+                {
+                  "weight": 8,
+                  "data": {
+                    "Name": "minecraft:poppy",
+                    "Properties": {}
+                  }
+                },
+                {
+                  "weight": 100,
+                  "data": {
+                    "Name": "minecraft:grass"
+                  }
+                },
+                {
+                  "weight": 44,
+                  "data": {
+                    "Name": "minecraft:fern"
+                  }
+                },
+                {
+                  "weight": 1,
+                  "data": {
+                    "Name": "minecraft:cornflower"
+                  }
+                },
+                {
+                  "weight": 1,
+                  "data": {
+                    "Name": "minecraft:white_tulip"
+                  }
+                },
+                {
+                  "weight": 1,
+                  "data": {
+                    "Name": "minecraft:pink_tulip"
+                  }
+                },
+                {
+                  "weight": 18,
+                  "data": {
+                    "Name": "minecraft:red_tulip"
+                  }
+                }
+              ]
+            },
+            "block_placer": {
+              "type": "minecraft:simple_block_placer"
+            },
+            "whitelist": [],
+            "blacklist": []
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "bastion_remnant",
+              "decoration": "red_x"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "I've got a bad feeling about this",
+                  "color": "dark_gray",
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "Discarded Map"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

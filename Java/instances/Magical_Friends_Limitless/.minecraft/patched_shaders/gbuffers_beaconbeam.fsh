@@ -644,7 +644,7 @@ Complementary Shaders by EminGT, based on BSL Shaders by Capt Tatsu
   
 
 
-//#define COLORED_LIGHT_DEFINE
+  
 
   
   
@@ -1020,11 +1020,11 @@ uniform sampler2D texture;
 
 //Includes//
 
-vec3 blocklightColSqrt = vec3(224, 172, 140) * 0.45 / 255.0;
-vec3 blocklightCol = blocklightColSqrt * blocklightColSqrt;
 
 
 
+vec3 blocklightColSqrt = vec3(0.387, 0.31, 0.247);
+vec3 blocklightCol = vec3(0.15, 0.096, 0.061);
 
 
 //Program//

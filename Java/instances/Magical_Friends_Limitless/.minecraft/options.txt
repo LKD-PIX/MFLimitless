@@ -24,7 +24,7 @@ fov:0.375
 screenEffectScale:1.0
 fovEffectScale:1.0
 gamma:1.0
-renderDistance:10
+renderDistance:9
 simulationDistance:6
 entityDistanceScaling:1.25
 guiScale:4
@@ -187,9 +187,9 @@ key_gui.xaero_map_zoom_in:key.keyboard.unknown
 key_gui.xaero_map_zoom_out:key.keyboard.unknown
 key_gui.xaero_quick_confirm:key.keyboard.right.shift
 key_pistorder.clear_display:key.keyboard.p
-soundCategory_master:0.10564346
+soundCategory_master:0.14375341
 soundCategory_music:0.0
-soundCategory_record:0.6132145
+soundCategory_record:1.0
 soundCategory_weather:0.20001072
 soundCategory_block:0.85
 soundCategory_hostile:0.38677984

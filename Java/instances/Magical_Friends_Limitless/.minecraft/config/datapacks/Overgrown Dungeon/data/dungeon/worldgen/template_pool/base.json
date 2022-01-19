@@ -1,0 +1,16 @@
+
+{
+  "name": "dungeon:base",
+  "fallback": "minecraft:empty",
+  "elements": [
+{	
+      "weight": 10,
+      "element": {
+        "location": "dungeon:throne",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

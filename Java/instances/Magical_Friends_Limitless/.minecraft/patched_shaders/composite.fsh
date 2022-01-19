@@ -632,7 +632,7 @@ Complementary Shaders by EminGT, based on BSL Shaders by Capt Tatsu
   
 
 
-//#define COLORED_LIGHT_DEFINE
+  
 
   
   
@@ -1132,7 +1132,7 @@ float Bayer256(vec2 c) { return 0.25 * Bayer128(0.5 * c) + Bayer2(c); }
 
 
 float CalcNightBrightness() {
-	float nightBright = 1.00;
+	float nightBright = 0.85;
 	
 		
 		

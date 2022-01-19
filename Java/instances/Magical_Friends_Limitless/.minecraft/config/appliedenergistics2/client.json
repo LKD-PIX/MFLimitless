@@ -5,7 +5,7 @@
     "useTerminalUseLargeFont": false,
     "useColoredCraftingStatus": true,
     "__comment": "Show a preview of part and facade placement",
-    "PowerUnit": "ae",
+    "PowerUnit": "tr",
     "showDebugGuiOverlays": false,
     "showPlacementPreview": true
   },

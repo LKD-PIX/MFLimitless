@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "Journal",
+            "bold": true
+        },
+        "description": {
+            "text": "Explanations of the contents of different Tetartos datapacks."
+        },
+        "icon": {
+            "item": "minecraft:book"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/polished_blackstone.png"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "requirements": [
+        [
+            "tick"
+        ]
+    ]
+}

@@ -632,7 +632,7 @@ Complementary Shaders by EminGT, based on BSL Shaders by Capt Tatsu
   
 
 
-//#define COLORED_LIGHT_DEFINE
+  
 
   
   
@@ -1059,7 +1059,7 @@ float GetLuminance(vec3 color) {
 
 
 float CalcNightBrightness() {
-	float nightBright = 1.00;
+	float nightBright = 0.85;
 	
 		
 		

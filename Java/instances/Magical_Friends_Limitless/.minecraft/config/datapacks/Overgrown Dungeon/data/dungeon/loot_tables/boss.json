@@ -1,0 +1,110 @@
+{
+  "type": "entity",
+  "pools": [
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:iron_block",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 18,
+                "max": 36
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 24,
+                "max": 36
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:2b,Amplifier:0b,Duration:300},{Id:7b,Amplifier:0b,Duration:1},{Id:18b,Amplifier:0b,Duration:300}],Potion:\"minecraft:empty\",CustomPotionColor:10263708}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Iron Tipped Arrow",
+                  "color": "gray",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 4,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 6,
+                "max": 12
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:diamond_chestplate",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{golemChest:1b,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUID:[I;1102983714,-1494790807,-1402755164,-1537139012],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:6,Operation:0,UUID:[I;-1385411343,250301037,-1883118693,-577556707],Slot:\"chest\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;548115235,1549488072,-1736827105,1185394893],Slot:\"chest\"}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Diamond Golem Chestplate",
+                  "color": "white",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

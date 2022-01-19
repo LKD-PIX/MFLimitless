@@ -1,0 +1,28 @@
+{
+    "pools": [
+      {
+        "rolls": 2,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "quality": 3,
+            "name": "minecraft:dirt"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "quality": 3,
+            "name": "minecraft:coarse_dirt"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "quality": 2,
+            "name": "minecraft:podzol"
+          }
+        ]
+      }
+    ]
+  }
+  

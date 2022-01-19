@@ -1,0 +1,77 @@
+{
+    "pools": [
+      {
+        "rolls": {
+          "min": 1,
+          "max": 2
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "quality": 4,
+            "name": "minecraft:gold_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "quality": 1,
+            "name": "minecraft:bone"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "quality": 1,
+            "name": "minecraft:slime_ball"
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 1,
+          "max": 3
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "quality": 4,
+            "name": "minecraft:iron_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "quality": 2,
+            "name": "minecraft:iron_nugget"
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 2,
+          "max": 3
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "quality": 1,
+            "name": "minecraft:poisonous_potato"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "quality": 1,
+            "name": "minecraft:grass"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "quality": 1,
+            "name": "minecraft:cobweb"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -645,7 +645,7 @@ Complementary Shaders by EminGT, based on BSL Shaders by Capt Tatsu
   
 
 
-//#define COLORED_LIGHT_DEFINE
+  
 
   
   
@@ -1206,7 +1206,7 @@ float GetCoordDistance(vec2 coord1, vec2 coord2) {
 
 
 float CalcNightBrightness() {
-	float nightBright = 1.00;
+	float nightBright = 0.85;
 	
 		
 		

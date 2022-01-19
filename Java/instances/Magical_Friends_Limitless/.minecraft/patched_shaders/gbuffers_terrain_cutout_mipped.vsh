@@ -661,7 +661,7 @@ Complementary Shaders by EminGT, based on BSL Shaders by Capt Tatsu
   
 
 
-//#define COLORED_LIGHT_DEFINE
+  
 
   
   
@@ -1065,7 +1065,7 @@ varying vec4 color;
 
 
 
-	
+	varying float lightVarying;
 
 
 
@@ -3340,7 +3340,7 @@ vec3 WavingBlocks(vec3 position, float istopv, float lmCoordY) {
     if (mc_Entity.x == 175 || (mc_Entity.x == 176.0 && (istopv > 0.9 || fract(worldpos.y+0.005)>0.01))) { // Double Plants
         wave += calcMove(worldpos, lmCoordY, 0.0041, 0.005, 0.0044, 0.0038, 0.0240, 0.0000, vec3(0.8,0.1,0.8), vec3(0.4,0.0,0.4));
 	}
-    if (mc_Entity.x == 6 && (istopv > 0.9 || fract(worldpos.y + 0.005) > 0.01)) { // Plants
+    if (mc_Entity.x == 6 && (istopv > 0.9 || fract(worldpos.y + 0.015) > 0.01)) { // Plants
         wave += calcMove(worldpos, lmCoordY, 0.0041, 0.005, 0.0044, 0.0038, 0.0240, 0.0000, vec3(0.6,0.0,0.6), vec3(0.3,0.0,0.3));
 	}
     
@@ -3496,7 +3496,7 @@ void main() {
 		
 	
 	
-		
+		lightVarying = 0.0;
 	
 	
 		
@@ -3532,19 +3532,19 @@ if (mc_Entity.x == 18 || mc_Entity.x == 9600 || mc_Entity.x == 9100) // Leaves, 
 
 if (mc_Entity.x == 10) // Lava
     
-        
+        lightVarying = 3.0,
     
     mat = 4.0,
     specB = 0.25, quarterNdotUfactor = 0.0, color.a = 1.0, lmCoord.x = 0.9,
-    color.rgb = normalize(color.rgb) * vec3(1.70 * 1.45);
+    color.rgb = normalize(color.rgb) * vec3(1.3 * 1.45);
 if (mc_Entity.x == 1010) // Fire
     
-        
+        lightVarying = 3.0,
     
     specB = 0.25, lmCoord.x = 0.98, color.a = 1.0, color.rgb = vec3(1.70 * 0.67);
 if (mc_Entity.x == 210) // Soul Fire
     
-        
+        lightVarying = 2.0,
     
     
         
@@ -3743,7 +3743,7 @@ if (lmCoord.x > 0.99) // Clamp full bright emissives
                             specR = 12.135, specG = 0.7;
                         else if (mc_Entity.x == 10342) // Amethyst Buds/Cluster
                             
-                                
+                                lightVarying = 2.0,
                             
                             mat = 170.0;
                         else if (mc_Entity.x == 10344) // Ancient Debris
@@ -3850,7 +3850,7 @@ if (lmCoord.x > 0.99) // Clamp full bright emissives
                             specR = 24.06;
                         else if (mc_Entity.x == 10432) // Cave Vines With Glow Berries
                             
-                                
+                                lightVarying = 3.0,
                             
                             specB = 8.3, mat = 20000.0, color.rgb = vec3(1.2, -5.0, 0.0),
                             mipmapDisabling = 1.0, lmCoord.x = clamp(lmCoord.x, 0.0, 0.87);
@@ -3877,13 +3877,13 @@ if (lmCoord.x > 0.99) // Clamp full bright emissives
                                 
                             
                             
-                                
+                                lightVarying = 3.0,
                             
                             lmCoord.x = 0.87, specB = 3.08, color.rgb = vec3(0.69, 0.65, 0.6),
                             mipmapDisabling = 1.0;
                         else if (mc_Entity.x == 11008) // Sea Lantern
                             
-                                
+                                lightVarying = 4.0,
                             
                             specR = 3.1, specG = 0.75,
                             lmCoord.x = 0.85, specB = 16.04,
@@ -3903,14 +3903,14 @@ if (lmCoord.x > 0.99) // Clamp full bright emissives
                                 
                             
                             
-                                
+                                lightVarying = 1.0,
                             
                             lmCoord.x = 0.81, specB = 16.005,
                             mat = 17000.0, color.rgb = vec3(1.5, 0.8, 1.0),
                             quarterNdotUfactor = 0.0;
                         else if (mc_Entity.x == 11020) // Redstone Lamp Lit
                             
-                                
+                                lightVarying = 3.0,
                             
                             lmCoord.x = 0.915, specB = 5.099, color.rgb = vec3(0.6), quarterNdotUfactor = 0.0,
                             specG = 0.63, specR = 0.55, mipmapDisabling = 1.0, extraSpecular = 1.0;
@@ -3922,13 +3922,13 @@ if (lmCoord.x > 0.99) // Clamp full bright emissives
                                 
                             
                             
-                                
+                                lightVarying = 3.0,
                             
                             mat = 17000.0, color.rgb = vec3(1.54, 1.0, 1.15),
                             specR = 12.065, lmCoord.x = 0.87, specB = 16.0001, mipmapDisabling = 1.0;
                         else if (mc_Entity.x == 11032) // Beacon
                             
-                                
+                                lightVarying = 4.0,
                             
                             mat = 176.0, lmCoord.x = 0.87;
                         else if (mc_Entity.x == 11036) // End Rod
@@ -3936,7 +3936,7 @@ if (lmCoord.x > 0.99) // Clamp full bright emissives
                                 
                             
                             
-                                
+                                lightVarying = 4.0,
                             
                             specR = 1.0, lmCoord.x = 0.88, mat = 180.0;
                     }
@@ -3961,7 +3961,7 @@ if (lmCoord.x > 0.99) // Clamp full bright emissives
                                 
                             
                             
-                                
+                                lightVarying = 2.0,
                             
                             
                                 
@@ -3996,13 +3996,13 @@ if (lmCoord.x > 0.99) // Clamp full bright emissives
                             mat = 132.0, mipmapDisabling = 1.0;
                         else if (mc_Entity.x == 11068) // Lantern
                             
-                                
+                                lightVarying = 3.0,
                             
                             lmCoord.x = 0.87, specB = 3.4, mat = 20000.0, color.rgb = vec3(1.0, 0.0, 0.0),
                             specR = 0.5, specG = 1.0;
                         else if (mc_Entity.x == 11072) // Soul Lantern
                             
-                                
+                                lightVarying = 2.0,
                             
                             lmCoord.x = min(lmCoord.x, 0.87), specB = 4.15, mat = 20000.0, color.rgb = vec3(0.0, 1.0, 0.0),
                             specR = 0.5, specG = 1.0;
@@ -4028,7 +4028,7 @@ if (lmCoord.x > 0.99) // Clamp full bright emissives
                         }
                         else if (mc_Entity.x == 11080) // Furnaces Lit
                             
-                                
+                                lightVarying = 3.0,
                             
                             specR = 10.07, mat = 144.0, lmCoord.x = pow(lmCoord.x, 1.35);
                         else if (mc_Entity.x == 11084) // Torch
@@ -4036,7 +4036,7 @@ if (lmCoord.x > 0.99) // Clamp full bright emissives
                                 
                             
                             
-                                
+                                lightVarying = 1.0,
                             
                             lmCoord.x = min(lmCoord.x, 0.86), mat = 148.0, mipmapDisabling = 1.0;
                     }
@@ -4049,7 +4049,7 @@ if (lmCoord.x > 0.99) // Clamp full bright emissives
                                 
                             
                             
-                                
+                                lightVarying = 2.0,
                             
                             lmCoord.x = min(lmCoord.x, 0.86), mat = 148.0, mipmapDisabling = 1.0;
                         else if (mc_Entity.x == 11092) // Crying Obsidian, Respawn Anchor
@@ -4057,18 +4057,18 @@ if (lmCoord.x > 0.99) // Clamp full bright emissives
                                 
                             
                             
-                                
+                                lightVarying = 2.0,
                             
                             specR = 2.15, specG = 0.6, mat = 152.0,
                             specB = 0.75, lmCoord.x = min(lmCoord.x, 0.88), mipmapDisabling = 1.0, extraSpecular = 1.0;
                         else if (mc_Entity.x == 11096) // Campfire, Powered Lever
                             
-                                
+                                lightVarying = 3.0,
                             
                             lmCoord.x = min(lmCoord.x, 0.885), mat = 156.0;
                         else if (mc_Entity.x == 11100) // Soul Campfire
                             
-                                
+                                lightVarying = 2.0,
                             
                             lmCoord.x = min(lmCoord.x, 0.885), mat = 156.0;
                     } else {
@@ -4079,7 +4079,7 @@ if (lmCoord.x > 0.99) // Clamp full bright emissives
                             specB = 8.003, quarterNdotUfactor = 0.0;
                         else if (mc_Entity.x == 11108) // Sea Pickle
                             
-                                
+                                lightVarying = 5.0,
                             
                             specB = 12.0003, lmCoord.x = min(lmCoord.x, 0.885), mipmapDisabling = 1.0;
                         else if (mc_Entity.x == 11110) // Sculk Sensor Inactive
@@ -4088,7 +4088,7 @@ if (lmCoord.x > 0.99) // Clamp full bright emissives
                             specB = 0.05, lmCoord = vec2(0.0);
                         else if (mc_Entity.x == 11112) // Lit Candles
                             
-                                
+                                lightVarying = 3.0,
                             
                             lmCoord.x = clamp(lmCoord.x, 0.0, 0.87);
                     }
@@ -4146,7 +4146,7 @@ if (lmCoord.x > 0.99) // Clamp full bright emissives
                                 specR = 12.065;
                             else if (mc_Entity.x == 11128) // Redstone Ore Lit
                                 
-                                    
+                                    lightVarying = 2.0,
                                 
                                 
                                     
@@ -4156,7 +4156,7 @@ if (lmCoord.x > 0.99) // Clamp full bright emissives
                                 specR = 20.04;
                             else if (mc_Entity.x == 11129) // Deepslate Redstone Ore Lit
                                 
-                                    
+                                    lightVarying = 2.0,
                                 
                                 
                                     

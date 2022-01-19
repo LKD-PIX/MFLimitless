@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "Dungeon Map"
+        },
+        "description": {
+            "text": "You can find a map locating the dungeon in a cartographer's chest."
+        },
+        "icon": {
+            "item": "minecraft:filled_map"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "i": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "i"
+        ]
+    ],
+    "parent": "tetartos:overgrown_dungeon"
+}

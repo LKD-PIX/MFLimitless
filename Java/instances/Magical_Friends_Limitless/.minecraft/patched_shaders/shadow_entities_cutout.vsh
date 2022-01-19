@@ -660,7 +660,7 @@ Complementary Shaders by EminGT, based on BSL Shaders by Capt Tatsu
   
 
 
-//#define COLORED_LIGHT_DEFINE
+  
 
   
   
@@ -1268,7 +1268,7 @@ vec3 WavingBlocks(vec3 position, float istopv, float lmCoordY) {
     if (mc_Entity.x == 175 || (mc_Entity.x == 176.0 && (istopv > 0.9 || fract(worldpos.y+0.005)>0.01))) { // Double Plants
         wave += calcMove(worldpos, lmCoordY, 0.0041, 0.005, 0.0044, 0.0038, 0.0240, 0.0000, vec3(0.8,0.1,0.8), vec3(0.4,0.0,0.4));
 	}
-    if (mc_Entity.x == 6 && (istopv > 0.9 || fract(worldpos.y + 0.005) > 0.01)) { // Plants
+    if (mc_Entity.x == 6 && (istopv > 0.9 || fract(worldpos.y + 0.015) > 0.01)) { // Plants
         wave += calcMove(worldpos, lmCoordY, 0.0041, 0.005, 0.0044, 0.0038, 0.0240, 0.0000, vec3(0.6,0.0,0.6), vec3(0.3,0.0,0.3));
 	}
     

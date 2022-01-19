@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Overgrown Dungeon"
+        },
+        "description": {
+            "text": "The hidden citadel of the forest."
+        },
+        "icon": {
+            "item": "minecraft:vine"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "forestBastion": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:forest",
+                "dimension": "overworld",
+                "feature": "bastion_remnant"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "forestBastion"
+        ]
+    ],
+    "parent": "tetartos:root"
+}

@@ -1,0 +1,20 @@
+{
+    "values": [
+        "air",
+        "cave_air",
+        "void_air",
+        "#flowers",
+        "#tall_flowers",
+        "#small_dripleaf_placeable",
+        "#small_flowers",
+        "grass",
+        "tall_grass",
+        "seagrass",
+        "tall_seagrass",
+        "kelp",
+        "kelp_plant",
+        "torch",
+        "redstone_torch",
+        "#saplings"
+    ]
+}

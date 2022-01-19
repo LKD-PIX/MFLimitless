@@ -632,7 +632,7 @@ Complementary Shaders by EminGT, based on BSL Shaders by Capt Tatsu
   
 
 
-//#define COLORED_LIGHT_DEFINE
+  
 
   
   
@@ -1096,7 +1096,7 @@ void Bloom(inout vec3 color, vec2 coord, float dither) {
 	
 	
 	
-		float bloomStrength = 1;
+		float bloomStrength = 0.85;
 	
 		
 	
@@ -1174,7 +1174,7 @@ void ColorSaturation(inout vec3 color) {
 
 
 float CalcNightBrightness() {
-	float nightBright = 1.00;
+	float nightBright = 0.85;
 	
 		
 		

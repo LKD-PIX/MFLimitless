@@ -32,7 +32,7 @@ key_modifiers_key.hotbar.6:0,0,0
 key_modifiers_key.hotbar.7:0,0,0
 key_modifiers_key.hotbar.8:0,0,0
 key_modifiers_key.hotbar.9:0,0,0
-key_modifiers_key.big_items_duh.toggle-zoom:0,0,0
+key_modifiers_key.big_items_duh.toggle-zoom:0,0,1
 key_modifiers_key.big_items_duh.hold-zoom:0,0,0
 key_modifiers_[Fabrication] Toggle/Hold Sprint:0,0,0
 key_modifiers_[Fabrication] Toggle Stance:0,0,0

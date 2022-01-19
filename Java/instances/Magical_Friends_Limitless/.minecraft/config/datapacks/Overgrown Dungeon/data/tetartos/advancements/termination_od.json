@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": " "
+        },
+        "description": {
+            "text": " "
+        },
+        "icon": {
+            "item": "minecraft:structure_void"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "requirements": [
+        [
+            "tick"
+        ]
+    ],
+    "parent": "tetartos:boss_golem"
+}

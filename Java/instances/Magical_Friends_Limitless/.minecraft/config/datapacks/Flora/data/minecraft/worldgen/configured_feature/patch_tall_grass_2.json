@@ -1,0 +1,107 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count",
+      "config": {
+        "count": 21
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:square",
+              "config": {}
+            },
+            "inner": {
+              "type": "minecraft:heightmap",
+              "config": {
+                "heightmap": "MOTION_BLOCKING"
+              }
+            }
+          }
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:spread_32_above",
+              "config": {}
+            },
+            "feature": {
+              "type": "minecraft:random_patch",
+              "config": {
+                "can_replace": false,
+                "project": false,
+                "need_water": false,
+                "xspread": 7,
+                "yspread": 3,
+                "zspread": 7,
+                "tries": 64,
+                "state_provider": {
+                  "type": "minecraft:weighted_state_provider",
+                  "entries": [
+                    {
+                      "weight": 1,
+                      "data": {
+                        "Name": "minecraft:rose_bush",
+                        "Properties": {
+                          "half": "lower"
+                        }
+                      }
+                    },
+                    {
+                      "weight": 2,
+                      "data": {
+                        "Name": "minecraft:lilac",
+                        "Properties": {
+                          "half": "lower"
+                        }
+                      }
+                    },
+                    {
+                      "weight": 8,
+                      "data": {
+                        "Name": "minecraft:tall_grass",
+                        "Properties": {
+                          "half": "lower"
+                        }
+                      }
+                    },
+                    {
+                      "weight": 3,
+                      "data": {
+                        "Name": "minecraft:large_fern",
+                        "Properties": {
+                          "half": "lower"
+                        }
+                      }
+                    },
+                    {
+                      "weight": 3,
+                      "data": {
+                        "Name": "minecraft:peony",
+                        "Properties": {
+                          "half": "lower"
+                        }
+                      }
+                    }
+                  ]
+                },
+                "block_placer": {
+                  "type": "minecraft:double_plant_placer"
+                },
+                "whitelist": [],
+                "blacklist": []
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
