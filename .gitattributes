@@ -4,6 +4,12 @@
 *.jar filter=lfs diff=lfs merge=lfs -text
 *.png filter=lfs diff=lfs merge=lfs -text
 *.dll filter=lfs diff=lfs merge=lfs -text
-MFLimitless/Java/instances/Magical_Friends_Limitless/.minecraft/assets/** filter=lfs diff=lfs merge=lfs -text
+Java/instances/Magical_Friends_Limitless/.minecraft/assets/** filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
 *.xwmc filter=lfs diff=lfs merge=lfs -text
+Java/lib/** filter=lfs diff=lfs merge=lfs -text
+Java/jars/** filter=lfs diff=lfs merge=lfs -text
+Java/bin/** filter=lfs diff=lfs merge=lfs -text
+Java/jmods/** filter=lfs diff=lfs merge=lfs -text
+Java/legal/** filter=lfs diff=lfs merge=lfs -text
+Java/include/** filter=lfs diff=lfs merge=lfs -text
