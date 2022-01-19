@@ -5,5 +5,5 @@
 *.png filter=lfs diff=lfs merge=lfs -text
 *.dll filter=lfs diff=lfs merge=lfs -text
 MFLimitless/Java/instances/Magical_Friends_Limitless/.minecraft/assets/** filter=lfs diff=lfs merge=lfs -text
-MFLimitless/Java/instances/Magical_Friends_Limitless/.minecraft/assets filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
+*.xwmc filter=lfs diff=lfs merge=lfs -text
