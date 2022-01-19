@@ -1,4 +1,4 @@
 # MFLimitless
 
-#__Download__
-Click "Code" -> "Download ZIP" in the upper right corner
+
+__Click "Code" -> "Download ZIP" in the upper right corner__
