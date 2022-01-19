@@ -1,0 +1,67 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "block/coal_ore"
+      },
+      {
+        "model": "block/coal_ore1"
+      },
+      {
+        "model": "block/coal_ore2"
+      },
+      {
+        "model": "block/coal_ore3"
+      },
+	  {
+        "model": "block/coal_ore4"
+      },
+      {
+        "model": "block/coal_ore5"
+      },
+      {
+        "model": "block/coal_ore6"
+      },
+      {
+        "model": "block/coal_ore7"
+      },
+	  {
+        "model": "block/coal_ore8"
+      },
+      {
+        "model": "block/coal_ore9"
+      },
+      {
+        "model": "block/coal_ore10"
+      },
+      {
+        "model": "block/coal_ore11"
+      },
+	  {
+        "model": "block/coal_ore12"
+      },
+      {
+        "model": "block/coal_ore13"
+      },
+      {
+        "model": "block/coal_ore14"
+      },
+      {
+        "model": "block/coal_ore15"
+      },
+	  {
+        "model": "block/coal_ore16"
+      },
+      {
+        "model": "block/coal_ore17"
+      },
+      {
+        "model": "block/coal_ore18"
+      },
+      {
+        "model": "block/coal_ore19"
+      }
+	  
+    ]
+  }
+}

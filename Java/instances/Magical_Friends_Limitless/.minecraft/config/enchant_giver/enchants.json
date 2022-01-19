@@ -1,0 +1,56 @@
+{
+  "mythicmetals:aquarium_leggings": {
+    "minecraft:respiration": 2
+  },
+  "mythicmetals:prometheum_shovel": {
+    "minecraft:mending": 1
+  },
+  "mythicmetals:prometheum_leggings": {
+    "minecraft:mending": 1
+  },
+  "mythicmetals:prometheum_helmet": {
+    "minecraft:mending": 1
+  },
+  "mythicmetals:aquarium_helmet": {
+    "minecraft:aqua_affinity": 1
+  },
+  "mythicmetals:prometheum_pickaxe": {
+    "minecraft:mending": 1
+  },
+  "mythicmetals:prometheum_hoe": {
+    "minecraft:mending": 1
+  },
+  "mythicmetals:red_aegis_sword": {
+    "minecraft:fire_aspect": 3
+  },
+  "mythicmetals:white_aegis_sword": {
+    "minecraft:smite": 6
+  },
+  "mythicmetals:prometheum_sword": {
+    "minecraft:mending": 1
+  },
+  "mythicmetals:banglum_leggings": {
+    "minecraft:projectile_protection": 3
+  },
+  "mythicmetals:aquarium_boots": {
+    "minecraft:depth_strider": 2
+  },
+  "mythicmetals:banglum_boots": {
+    "minecraft:feather_falling": 1
+  },
+  "mythicmetals:banglum_chestplate": {
+    "minecraft:blast_protection": 2
+  },
+  "mythicmetals:prometheum_axe": {
+    "minecraft:mending": 1
+  },
+  "mythicmetals:banglum_helmet": {
+    "minecraft:thorns": 1
+  },
+  "mythicmetals:prometheum_boots": {
+    "minecraft:mending": 1
+  },
+  "mythicmetals:prometheum_chestplate": {
+    "minecraft:mending": 1
+  }
+}

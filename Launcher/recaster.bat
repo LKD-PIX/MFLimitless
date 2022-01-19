@@ -1,0 +1,5 @@
+if exist %cd%\launcher\091823460971234797565272300190783472345.bin copy /y NUL %cd%\launcher\9909238479069007618302462056203520340239423750297529892347.bin
+copy /y NUL %cd%\launcher\15409823704958720394750098234.bin
+start START_Launcher.bat
+::start "" /MAX "cmd /K START_Launcher.bat"
+exit

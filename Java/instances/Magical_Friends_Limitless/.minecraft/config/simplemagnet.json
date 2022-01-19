@@ -1,0 +1,8 @@
+{
+  "simpleMagnet": {
+    "general": {
+      "pullRadius": 16,
+      "maxDamage": 256
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "block/brown_mushroom"
+      },
+      {
+        "model": "block/brown_mushroom1"
+      },
+      {
+        "model": "block/brown_mushroom2"
+      },
+      {
+        "model": "block/brown_mushroom3"
+      },
+	  {
+        "model": "block/brown_mushroom4"
+      },
+      {
+        "model": "block/brown_mushroom5"
+      },
+      {
+        "model": "block/brown_mushroom6"
+      },
+      {
+        "model": "block/brown_mushroom7"
+      },
+      {
+        "model": "block/brown_mushroom8"
+      },
+      {
+        "model": "block/brown_mushroom9"
+      },
+      {
+        "model": "block/brown_mushroom10"
+      },
+      {
+        "model": "block/brown_mushroom11"
+      },
+      {
+        "model": "block/brown_mushroom12"
+      },
+      {
+        "model": "block/brown_mushroom13"
+      },
+      {
+        "model": "block/brown_mushroom14"
+      },
+      {
+        "model": "block/brown_mushroom15"
+      }
+    ]
+  }
+}

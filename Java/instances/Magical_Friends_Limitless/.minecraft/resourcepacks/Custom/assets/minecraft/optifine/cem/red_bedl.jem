@@ -1,0 +1,106 @@
+{
+	"texture": "red.png",
+	"textureSize": [128, 128],
+	"models": [
+		{
+			"part": "foot",
+			"id": "foot",
+			"invertAxis": "xy",
+			"translate": [-8, -9, 0],
+			"submodels": [
+				{
+					"id": "foot_rotation",
+					"invertAxis": "xy",
+					"translate": [0, 9, 0],
+					"rotate": [90, 0, 0],
+					"boxes": [
+						{"coordinates": [-8.5, -16.5, 0, 17, 16, 6], "textureOffset": [19, 69]},
+						{"coordinates": [-8, -16, 5, 16, 16, 4], "textureOffset": [5, 96]}
+					],
+					"submodels": [
+						{
+							"id": "foot_left_leg",
+							"invertAxis": "xy",
+							"translate": [0, -16, 0],
+							"rotate": [-90, 0, -90]
+						},
+						{
+							"id": "foot_right_leg",
+							"invertAxis": "xy",
+							"translate": [0, -16, 0],
+							"rotate": [-90, 0, 0]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"foot_rotation.rx": "0"
+				}
+			]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [-8, -25, 0],
+			"submodels": [
+				{
+					"id": "head_rotation",
+					"invertAxis": "xy",
+					"translate": [0, 9, 0],
+					"rotate": [90, 0, 0],
+					"boxes": [
+						{"coordinates": [-8.5, -0.5, 0, 17, 8, 6], "textureOffset": [19, 55]},
+						{"coordinates": [-8, 7, 2, 16, 9, 3], "textureOffset": [21, 49]},
+						{"coordinates": [-7.5, 7.5, -0.75, 15, 8, 3], "textureOffset": [78, 23]},
+						{"coordinates": [-8, 0, 5, 16, 16, 4], "textureOffset": [7, 104]}
+					],
+					"submodels": [
+						{
+							"id": "head_left_leg",
+							"invertAxis": "xy",
+							"translate": [0, -16, 0],
+							"rotate": [-90, 0, -180]
+						},
+						{
+							"id": "head_right_leg",
+							"invertAxis": "xy",
+							"translate": [0, -16, 0],
+							"rotate": [-90, 0, 90]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"head_rotation.rx": "0"
+				}
+			]
+		},
+		{
+			"part": "leg1",
+			"id": "leg1",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "leg2",
+			"id": "leg2",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "leg3",
+			"id": "leg3",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "leg4",
+			"id": "leg4",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+  "text.autoconfig.automated_crafting.title": "自动化工作台配置",
+  "item.automated_crafting.auto_crafter": "自动化工作台",
+  "block.automated_crafting.auto_crafter": "自动合成台",
+  "text.autoconfig.automated_crafting.option.simpleMode": "启用简单模式",
+  "text.autoconfig.automated_crafting.option.simpleMode.@Tooltip": "In simple mode you can set a recipe template",
+  "text.autoconfig.automated_crafting.option.quasiConnectivity": "启用半连接性",
+  "text.autoconfig.automated_crafting.option.quasiConnectivity.@Tooltip": "If the block above an auto crafter would be powered, the auto crafter is powered (but not updated)",
+  "text.autoconfig.automated_crafting.option.redirectsRedstone": "启用红石粉重定向",
+  "text.autoconfig.automated_crafting.option.redirectsRedstone.@Tooltip": "Redstone dust next to auto an crafter will point into the auto crafter",
+  "text.autoconfig.automated_crafting.option.craftContinuously": "被红石粉充能时持续合成操作",
+  "text.autoconfig.automated_crafting.option.craftContinuously.@Tooltip": "When an auto crafter is powered and contains a valid recipe, that recipe will be crafted immediately",
+  "text.autoconfig.automated_crafting.option.comparatorReadsOutput": "Comparator reads 15 if output isn't empty",
+  "text.autoconfig.automated_crafting.option.comparatorReadsOutput.@Tooltip": "A comparator reading an auto crafter with anything in its output slot will read 15",
+  "label.automated_crafting.template": "模板",
+  "label.automated_crafting.input": "输入"
+}

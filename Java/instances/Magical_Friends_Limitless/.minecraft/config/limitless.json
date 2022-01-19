@@ -1,0 +1,288 @@
+{
+  "automaticReloading": false,
+  "enchantment": {
+    "globalMaxLevel": 2147483647,
+    "allowTreasure": true,
+    "revealEnchantments": false,
+    "conflicts": {
+      "generate": false,
+      "merge": false
+    },
+    "normalization": {
+      "enabled": true,
+      "offset": 30
+    },
+    "reenchanting": {
+      "enabled": true,
+      "removeConflicts": true,
+      "allowEnchantedBooks": true,
+      "allowEquipment": true
+    },
+    "enchantingBlocks": {
+      "maxBlocks": 512,
+      "maxPower": 1024,
+      "radius": {
+        "xz": {
+          "min": 0,
+          "max": 8
+        },
+        "y": {
+          "min": -8,
+          "max": 8
+        }
+      },
+      "whitelist": {
+        "examplemod:example_block": 5.0
+      },
+      "blacklist": [
+        "examplemod:example_block"
+      ]
+    },
+    "particles": {
+      "enabled": true,
+      "inherit": true,
+      "radius": {
+        "xz": {
+          "min": 0,
+          "max": 8
+        },
+        "y": {
+          "min": -8,
+          "max": 8
+        }
+      }
+    },
+    "maxLevels": [
+      {
+        "identifier": "additionaladditions:precision",
+        "maxLevel": 2147483647,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "additionaladditions:speed",
+        "maxLevel": 2147483647,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "betterend:end_veil",
+        "maxLevel": 1,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "bewitchment:magic_protection",
+        "maxLevel": 2147483647,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "farmersdelight:backstabbing",
+        "maxLevel": 2147483647,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "gofish:deepfry",
+        "maxLevel": 1,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:aqua_affinity",
+        "maxLevel": 1,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:bane_of_arthropods",
+        "maxLevel": 2147483647,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:binding_curse",
+        "maxLevel": 1,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:blast_protection",
+        "maxLevel": 2147483647,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:channeling",
+        "maxLevel": 1,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:depth_strider",
+        "maxLevel": 2147483647,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:efficiency",
+        "maxLevel": 2147483647,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:feather_falling",
+        "maxLevel": 2147483647,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:fire_aspect",
+        "maxLevel": 2147483647,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:fire_protection",
+        "maxLevel": 2147483647,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:flame",
+        "maxLevel": 1,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:fortune",
+        "maxLevel": 2147483647,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:frost_walker",
+        "maxLevel": 2147483647,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:impaling",
+        "maxLevel": 2147483647,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:infinity",
+        "maxLevel": 1,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:knockback",
+        "maxLevel": 2147483647,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:looting",
+        "maxLevel": 2147483647,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:loyalty",
+        "maxLevel": 2147483647,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:luck_of_the_sea",
+        "maxLevel": 2147483647,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:lure",
+        "maxLevel": 2147483647,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:mending",
+        "maxLevel": 1,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:multishot",
+        "maxLevel": 1,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:piercing",
+        "maxLevel": 2147483647,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:power",
+        "maxLevel": 2147483647,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:projectile_protection",
+        "maxLevel": 2147483647,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:protection",
+        "maxLevel": 2147483647,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:punch",
+        "maxLevel": 2147483647,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:quick_charge",
+        "maxLevel": 2147483647,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:respiration",
+        "maxLevel": 2147483647,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:riptide",
+        "maxLevel": 2147483647,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:sharpness",
+        "maxLevel": 2147483647,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:silk_touch",
+        "maxLevel": 1,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:smite",
+        "maxLevel": 2147483647,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:soul_speed",
+        "maxLevel": 2147483647,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:sweeping",
+        "maxLevel": 2147483647,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:thorns",
+        "maxLevel": 2147483647,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:unbreaking",
+        "maxLevel": 2147483647,
+        "useGlobalMaxLevel": false
+      },
+      {
+        "identifier": "minecraft:vanishing_curse",
+        "maxLevel": 1,
+        "useGlobalMaxLevel": false
+      }
+    ]
+  },
+  "anvil": {
+    "mergeConflicts": true,
+    "mergeIncompatible": false,
+    "fixedCost": true,
+    "levelLimit": 2147483647,
+    "normalization": {
+      "enabled": true,
+      "display": "REPLACE"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+	// Determines the background color of the loading screen
+	"backgroundColor": 90515,
+	// If true, summons the holy tater
+	"showTater": true,
+	// If true, every mod only falls down the screen once
+	"modsOnlyOnce": false,
+	// Average size of falling icons
+	"iconSize": 64
+}

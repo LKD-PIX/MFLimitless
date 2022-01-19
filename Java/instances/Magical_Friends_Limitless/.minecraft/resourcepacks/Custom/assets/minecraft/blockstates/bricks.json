@@ -1,0 +1,120 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "block/bricks"
+      },
+      {
+        "model": "block/bricks1"
+      },
+      {
+        "model": "block/bricks2"
+      },
+      {
+        "model": "block/bricks3"
+      },
+	  {
+        "model": "block/bricks4"
+      },
+      {
+        "model": "block/bricks5"
+      },
+      {
+        "model": "block/bricks6"
+      },
+      {
+        "model": "block/bricks7"
+      },
+      {
+        "model": "block/bricks8"
+      },
+      {
+        "model": "block/bricks9"
+      },
+      {
+        "model": "block/bricks10"
+      },
+	  {
+        "model": "block/bricks11"
+      },
+      {
+        "model": "block/bricks12"
+      },
+      {
+        "model": "block/bricks13"
+      },
+      {
+        "model": "block/bricks14"
+      },
+      {
+        "model": "block/bricks15"
+      },
+      {
+        "model": "block/bricks16"
+      },
+      {
+        "model": "block/bricks17"
+      },
+	  {
+        "model": "block/bricks18"
+      },
+      {
+        "model": "block/bricks19"
+      },
+      {
+        "model": "block/bricks20"
+      },
+      {
+        "model": "block/bricks21"
+      },
+      {
+        "model": "block/bricks22"
+      },
+      {
+        "model": "block/bricks23"
+      },
+      {
+        "model": "block/bricks24"
+      },
+	  {
+        "model": "block/bricks25"
+      },
+      {
+        "model": "block/bricks26"
+      },
+      {
+        "model": "block/bricks27"
+      },
+      {
+        "model": "block/bricks28"
+      },
+      {
+        "model": "block/bricks29"
+      },
+	  {
+        "model": "block/bricks30"
+      },
+      {
+        "model": "block/bricks31"
+      },
+      {
+        "model": "block/bricks32"
+      },
+      {
+        "model": "block/bricks33"
+      },
+      {
+        "model": "block/bricks34"
+      },
+      {
+        "model": "block/bricks35"
+      },
+      {
+        "model": "block/bricks36"
+      },
+	  {
+        "model": "block/bricks37"
+      }
+    ]
+  }
+}

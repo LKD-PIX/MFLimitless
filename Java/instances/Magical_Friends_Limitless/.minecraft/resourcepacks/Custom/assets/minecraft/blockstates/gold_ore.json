@@ -1,0 +1,51 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "block/gold_ore"
+      },
+      {
+        "model": "block/gold_ore1"
+      },
+      {
+        "model": "block/gold_ore2"
+      },
+      {
+        "model": "block/gold_ore3"
+      },
+	  {
+        "model": "block/gold_ore4"
+      },
+      {
+        "model": "block/gold_ore5"
+      },
+      {
+        "model": "block/gold_ore6"
+      },
+      {
+        "model": "block/gold_ore7"
+      },
+	  {
+        "model": "block/gold_ore8"
+      },
+      {
+        "model": "block/gold_ore9"
+      },
+      {
+        "model": "block/gold_ore10"
+      },
+	  {
+        "model": "block/gold_ore11"
+      },
+	  {
+        "model": "block/gold_ore12"
+      },
+      {
+        "model": "block/gold_ore13"
+      },
+      {
+        "model": "block/gold_ore14"
+      }
+    ]
+  }
+}

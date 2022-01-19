@@ -1,0 +1,5 @@
+{
+  "enablePiglutton": true,
+  "damageNeededForGuaranteedFleshDrop": 8,
+  "strongerPiglutton": false
+}

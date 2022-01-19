@@ -1,0 +1,49 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "block/stone"
+      },
+      {
+        "model": "block/stone1"
+      },
+      {
+        "model": "block/stone2"
+      },
+      {
+        "model": "block/stone3"
+      },
+      {
+        "model": "block/stone4"
+      },
+      {
+        "model": "block/stone5"
+      },
+      {
+        "model": "block/stone6"
+      },
+	  
+	  {
+        "model": "block/stone_mirrored"
+      },
+      {
+        "model": "block/stone1_mirrored"
+      },
+      {
+        "model": "block/stone2_mirrored"
+      },
+      {
+        "model": "block/stone3_mirrored"
+      },
+      {
+        "model": "block/stone4_mirrored"
+      },
+      {
+        "model": "block/stone5_mirrored"
+      },
+      {
+        "model": "block/stone6_mirrored"
+      }
+    ]
+  }
+}

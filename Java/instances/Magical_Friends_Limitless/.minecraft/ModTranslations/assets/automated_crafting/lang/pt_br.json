@@ -1,0 +1,17 @@
+{
+  "text.autoconfig.automated_crafting.title": "Configuração de criação automatizada",
+  "item.automated_crafting.auto_crafter": "Bancada de trabalho automatizada",
+  "block.automated_crafting.auto_crafter": "Bancada de trabalho automatizada",
+  "text.autoconfig.automated_crafting.option.simpleMode": "Ativar modo simples",
+  "text.autoconfig.automated_crafting.option.simpleMode.@Tooltip": "No modo simples você pode definir um modelo de receita",
+  "text.autoconfig.automated_crafting.option.quasiConnectivity": "Ativar quasi-conectividade",
+  "text.autoconfig.automated_crafting.option.quasiConnectivity.@Tooltip": "Se o bloco acima de uma bancada automatizada estiver energizado, a bancada está energizada (mas não atualizada)",
+  "text.autoconfig.automated_crafting.option.redirectsRedstone": "Ativar redirecionamento de pó de redstone",
+  "text.autoconfig.automated_crafting.option.redirectsRedstone.@Tooltip": "Pó de Redstone ao lado de uma bancada automatizada irá apontar para a mesma",
+  "text.autoconfig.automated_crafting.option.craftContinuously": "Fabricar continuamente enquanto alimentado",
+  "text.autoconfig.automated_crafting.option.craftContinuously.@Tooltip": "Quando uma bancada automatizada é energizada e contém uma receita válida, essa receita será criada imediatamente",
+  "text.autoconfig.automated_crafting.option.comparatorReadsOutput": "O comparador lê 15 se a saída não estiver vazia",
+  "text.autoconfig.automated_crafting.option.comparatorReadsOutput.@Tooltip": "Um comparador lendo uma bancada automatizada que tenha qualquer coisa no espaço de saída irá ler o valor 15",
+  "label.automated_crafting.template": "Modelo",
+  "label.automated_crafting.input": "Entrada"
+}

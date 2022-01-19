@@ -1,0 +1,5 @@
+matchTiles=birch_leaves_foliage_dark
+tiles=3
+method=fixed
+connect=block
+biomes=minecraft:flower_forest minecraft:flower_hills minecraft:flower_hills_m minecraft:flower_forest_m minecraft:birch_forest minecraft:birch_forest_hills minecraft:tall_birch_forest minecraft:tall_birch_forest_hills

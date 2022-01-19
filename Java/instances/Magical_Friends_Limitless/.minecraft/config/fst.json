@@ -1,0 +1,13 @@
+{
+  "enableBlazePowderNetherCropGrowth": true,
+  "enableInfestedBlockBlend": true,
+  "enableCaveins": false,
+  "enableFallingBlockTriggering": true,
+  "enableSlimeToMagmaCube": true,
+  "enableMagmaCubeGrowth": true,
+  "enableSlimeGrowth": true,
+  "enableMagmaCubeToSlime": true,
+  "magmaCubeSizeLimit": 8,
+  "slimeSizeLimit": 8,
+  "enableSilkSpawners": true
+}

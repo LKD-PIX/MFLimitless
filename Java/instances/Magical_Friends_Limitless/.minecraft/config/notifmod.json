@@ -1,0 +1,100 @@
+{
+  "durability": {
+    "enabled": true,
+    "trackedItems": "minecraft:elytra; minecraft:turtle_helmet; minecraft:trident; minecraft:chainmail_helmet; minecraft:chainmail_chestplate; minecraft:chainmail_leggings; minecraft:chainmail_boots; minecraft:diamond_helmet; minecraft:diamond_chestplate; minecraft:diamond_leggings; minecraft:diamond_boots; minecraft:diamond_shovel; minecraft:diamond_pickaxe; minecraft:diamond_axe; minecraft:diamond_hoe; minecraft:diamond_sword; minecraft:netherite_helmet; minecraft:netherite_chestplate; minecraft:netherite_leggings; minecraft:netherite_boots; minecraft:netherite_shovel; minecraft:netherite_pickaxe; minecraft:netherite_axe; minecraft:netherite_hoe; minecraft:netherite_sword",
+    "alwaysNamed": true,
+    "alwaysEnchanted": true,
+    "blacklistedEnchantedItems": "",
+    "unbreakableItems": "minecraft:elytra",
+    "damageSettings": {
+      "damageThreshold": 5,
+      "weakDamageThreshold": 10,
+      "weakThreshold": 120,
+      "damage": {
+        "msgType": "CHAT",
+        "soundEnabled": false,
+        "soundSequence": "notifmod:durability.damage",
+        "volume": 100
+      },
+      "stop": {
+        "msgType": "CHAT",
+        "soundEnabled": false,
+        "soundSequence": "notifmod:durability.stop; 200; notifmod:durability.stop",
+        "volume": 100
+      }
+    },
+    "repairSettings": {
+      "unlockThreshold": 75,
+      "msgType": "CHAT",
+      "soundEnabled": false,
+      "soundSequence": "notifmod:durability.mend(1.1)",
+      "volume": 100
+    }
+  },
+  "chat": {
+    "message": {
+      "enabled": true,
+      "regexFilter": ".+",
+      "regexFilterSys": "\\[Server\\] .+",
+      "regexFilterGame": "",
+      "caseSens": "NONE",
+      "soundSequence": "notifmod:chat.message",
+      "volume": 100
+    },
+    "mention": {
+      "enabled": true,
+      "regexFilter": ".*\\p.*",
+      "regexFilterSys": "\\[Server\\] .*\\p.*",
+      "regexFilterGame": "",
+      "caseSens": "NONE",
+      "soundSequence": "notifmod:chat.mention",
+      "volume": 100
+    }
+  },
+  "playerJoinLeave": {
+    "join": {
+      "enabled": true,
+      "soundSequence": "notifmod:player.join(1.3)",
+      "volume": 90
+    },
+    "leave": {
+      "enabled": true,
+      "soundSequence": "notifmod:player.leave(1.3)",
+      "volume": 90
+    }
+  },
+  "sleepReminder": {
+    "enabled": false,
+    "includeThunder": false,
+    "msgType": "CHAT",
+    "soundEnabled": false,
+    "soundSequence": "notifmod:sleep.now",
+    "volume": 100
+  },
+  "doneLoading": {
+    "game": {
+      "enabled": true,
+      "afterFade": false,
+      "soundSequence": "notifmod:done_loading.game",
+      "volume": 100
+    },
+    "world": {
+      "enabled": true,
+      "chunks": 9,
+      "soundSequence": "notifmod:done_loading.world",
+      "volume": 100
+    }
+  },
+  "reminder": {
+    "keyBind": 334,
+    "defSeconds": 300,
+    "pre1Seconds": 120,
+    "pre2Seconds": 1200,
+    "skipGUI": false,
+    "msgTypeStart": "ACTIONBAR",
+    "msgTypeDone": "CHAT",
+    "soundEnabled": true,
+    "soundSequence": "notifmod:reminder.done",
+    "volume": 100
+  }
+}

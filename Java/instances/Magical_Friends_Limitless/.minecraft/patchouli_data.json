@@ -1,0 +1,57 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": true,
+  "bookData": {
+    "spectrum:manual": {
+      "viewedEntries": [
+        "spectrum:general/intro",
+        "spectrum:decoration/block_variants",
+        "spectrum:general/shards",
+        "spectrum:general/anvil_crushing",
+        "spectrum:general/gemstone_powder",
+        "spectrum:general/pedestal",
+        "spectrum:general/pedestal_upgrade_cmy",
+        "spectrum:general/color_mixing",
+        "spectrum:general/colored_trees",
+        "spectrum:general/pigment",
+        "spectrum:general/fusion_shrine",
+        "spectrum:general/midnight_aberration",
+        "spectrum:general/pedestal_upgrade_onyx",
+        "spectrum:general/onyx_shards",
+        "spectrum:dimension/getting_deeper_down",
+        "spectrum:general/creating_onyx_geodes",
+        "spectrum:general/pedestal_upgrade_moonstone",
+        "spectrum:resources/quitoxic_reeds",
+        "spectrum:resources/clover",
+        "spectrum:spirit_sallow/spirit_sallow"
+      ],
+      "bookmarks": [],
+      "history": [
+        "spectrum:general/fusion_shrine",
+        "spectrum:general/pedestal",
+        "spectrum:general/intro",
+        "spectrum:spirit_sallow/spirit_sallow",
+        "spectrum:resources/clover",
+        "spectrum:resources/quitoxic_reeds",
+        "spectrum:general/pedestal_upgrade_cmy",
+        "spectrum:general/pedestal_upgrade_moonstone",
+        "spectrum:general/creating_onyx_geodes",
+        "spectrum:dimension/getting_deeper_down",
+        "spectrum:general/onyx_shards",
+        "spectrum:general/pedestal_upgrade_onyx",
+        "spectrum:general/midnight_aberration"
+      ],
+      "completedManualQuests": []
+    },
+    "indrev:indrev": {
+      "viewedEntries": [
+        "indrev:machines/chopper"
+      ],
+      "bookmarks": [],
+      "history": [
+        "indrev:machines/chopper"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

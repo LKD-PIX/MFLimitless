@@ -1,0 +1,1974 @@
+{
+  "generator": {
+    "biome": {
+      "betternether": {
+        "gravel_desert": {
+          "procedural": {
+            "wall": {
+              "cap_gen": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              }
+            },
+            "floor": {
+              "netherrack_stalactite": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "glowstone_stalactite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "nether_cactus": {
+                "density[def: 0.02]": 0.02,
+                "limit[def: true]": true
+              },
+              "agave": {
+                "density[def: 0.02]": 0.02,
+                "limit[def: true]": true
+              },
+              "barrel_cactus": {
+                "density[def: 0.02]": 0.02,
+                "limit[def: true]": true
+              }
+            },
+            "ceil": {
+              "netherrack_stalagmite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "glowstone_stalagmite": {
+                "density[def: 0.005]": 0.005,
+                "limit[def: true]": true
+              }
+            }
+          },
+          "schematics": [
+            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
+            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
+            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
+            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
+            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
+            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
+            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
+            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
+          ],
+          "plants_and_structures_density[def: 1.0]": 1.0,
+          "noise_density[def: 0.35]": 0.35
+        },
+        "nether_jungle": {
+          "procedural": {
+            "wall": {
+              "cap_gen": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              },
+              "lucis": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: false]": false
+              },
+              "jungle_moss": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              },
+              "wall_moss": {
+                "density[def: 0.2]": 0.2,
+                "limit[def: true]": true
+              },
+              "wall_red_mushroom": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              },
+              "wall_brown_mushroom": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              }
+            },
+            "floor": {
+              "netherrack_stalactite": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "glowstone_stalactite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "nether_reed": {
+                "density[def: 0.5]": 0.5,
+                "limit[def: false]": false
+              },
+              "stalagnate": {
+                "density[def: 0.2]": 0.2,
+                "limit[def: false]": false
+              },
+              "rubeus_tree": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: false]": false
+              },
+              "bush_rubeus": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: false]": false
+              },
+              "magma_flower": {
+                "density[def: 0.5]": 0.5,
+                "limit[def: false]": false
+              },
+              "egg_plant": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "jellyfish_mushroom": {
+                "density[def: 0.03]": 0.03,
+                "limit[def: true]": true
+              },
+              "feather_fern": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "jungle_plant": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: false]": false
+              }
+            },
+            "ceil": {
+              "netherrack_stalagmite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "glowstone_stalagmite": {
+                "density[def: 0.005]": 0.005,
+                "limit[def: true]": true
+              },
+              "eye": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: true]": true
+              },
+              "black_vine": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: true]": true
+              },
+              "golden_vine": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: true]": true
+              },
+              "flowered_vine": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: true]": true
+              }
+            }
+          },
+          "schematics": [
+            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
+            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
+            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
+            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
+            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
+            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
+            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
+            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
+          ],
+          "plants_and_structures_density[def: 1.0]": 1.0,
+          "noise_density[def: 0.35]": 0.35
+        },
+        "wart_forest": {
+          "procedural": {
+            "wall": {
+              "cap_gen": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              }
+            },
+            "floor": {
+              "netherrack_stalactite": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "glowstone_stalactite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "wart_deadwood": {
+                "density[def: 0.02]": 0.02,
+                "limit[def: false]": false
+              },
+              "wart_tree": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: false]": false
+              },
+              "nether_wart": {
+                "density[def: 0.2]": 0.2,
+                "limit[def: false]": false
+              },
+              "wart_seed": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: false]": false
+              },
+              "black_bush": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: false]": false
+              },
+              "soul_lily": {
+                "density[def: 0.2]": 0.2,
+                "limit[def: true]": true
+              }
+            },
+            "ceil": {
+              "netherrack_stalagmite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "glowstone_stalagmite": {
+                "density[def: 0.005]": 0.005,
+                "limit[def: true]": true
+              }
+            }
+          },
+          "schematics": [
+            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
+            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
+            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
+            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
+            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
+            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
+            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
+            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
+          ],
+          "plants_and_structures_density[def: 1.0]": 1.0,
+          "noise_density[def: 0.35]": 0.35
+        },
+        "nether_grasslands": {
+          "procedural": {
+            "wall": {
+              "cap_gen": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              },
+              "wall_moss": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              },
+              "wall_red_mushroom": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              },
+              "wall_brown_mushroom": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              }
+            },
+            "floor": {
+              "netherrack_stalactite": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "glowstone_stalactite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "nether_reed": {
+                "density[def: 0.5]": 0.5,
+                "limit[def: false]": false
+              },
+              "nether_wart": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "magma_flower": {
+                "density[def: 0.5]": 0.5,
+                "limit[def: true]": true
+              },
+              "smoker": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "ink_bush": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "black_apple": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "black_bush": {
+                "density[def: 0.02]": 0.02,
+                "limit[def: true]": true
+              },
+              "wart_seed": {
+                "density[def: 0.02]": 0.02,
+                "limit[def: true]": true
+              },
+              "nether_grass": {
+                "density[def: 0.4]": 0.4,
+                "limit[def: true]": true
+              }
+            },
+            "ceil": {
+              "netherrack_stalagmite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "glowstone_stalagmite": {
+                "density[def: 0.005]": 0.005,
+                "limit[def: true]": true
+              }
+            }
+          },
+          "schematics": [
+            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
+            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
+            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
+            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
+            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
+            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
+            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
+            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
+          ],
+          "plants_and_structures_density[def: 1.0]": 1.0,
+          "noise_density[def: 0.35]": 0.35
+        },
+        "nether_mushroom_forest": {
+          "procedural": {
+            "wall": {
+              "cap_gen": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              },
+              "lucis": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: false]": false
+              },
+              "wall_red_mushroom": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              },
+              "wall_brown_mushroom": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              }
+            },
+            "floor": {
+              "netherrack_stalactite": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "glowstone_stalactite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "large_red_mushroom": {
+                "density[def: 0.12]": 0.12,
+                "limit[def: true]": true
+              },
+              "large_brown_mushroom": {
+                "density[def: 0.12]": 0.12,
+                "limit[def: true]": true
+              },
+              "giant_mold": {
+                "density[def: 0.12]": 0.12,
+                "limit[def: true]": true
+              },
+              "mushroom_fir": {
+                "density[def: 0.2]": 0.2,
+                "limit[def: true]": true
+              },
+              "vanilla_mushrooms": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: false]": false
+              },
+              "orange_mushroom": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "red_mold": {
+                "density[def: 0.5]": 0.5,
+                "limit[def: true]": true
+              },
+              "gray_mold": {
+                "density[def: 0.5]": 0.5,
+                "limit[def: true]": true
+              }
+            },
+            "ceil": {
+              "netherrack_stalagmite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "glowstone_stalagmite": {
+                "density[def: 0.005]": 0.005,
+                "limit[def: true]": true
+              }
+            }
+          },
+          "schematics": [
+            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
+            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
+            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
+            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
+            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
+            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
+            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
+            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
+          ],
+          "plants_and_structures_density[def: 1.0]": 1.0,
+          "noise_density[def: 0.35]": 0.35
+        },
+        "nether_mushroom_forest_edge": {
+          "procedural": {
+            "wall": {
+              "cap_gen": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              }
+            },
+            "floor": {
+              "netherrack_stalactite": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "glowstone_stalactite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "orange_mushroom": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "vanilla_mushrooms": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: false]": false
+              },
+              "red_mold": {
+                "density[def: 0.5]": 0.5,
+                "limit[def: false]": false
+              },
+              "gray_mold": {
+                "density[def: 0.5]": 0.5,
+                "limit[def: false]": false
+              }
+            },
+            "ceil": {
+              "netherrack_stalagmite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "glowstone_stalagmite": {
+                "density[def: 0.005]": 0.005,
+                "limit[def: true]": true
+              }
+            }
+          },
+          "schematics": [
+            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
+            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
+            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
+            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
+            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
+            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
+            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
+            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
+          ],
+          "plants_and_structures_density[def: 1.0]": 1.0,
+          "noise_density[def: 0.35]": 0.35
+        },
+        "wart_forest_edge": {
+          "procedural": {
+            "wall": {
+              "cap_gen": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              }
+            },
+            "floor": {
+              "netherrack_stalactite": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "glowstone_stalactite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "nether_wart": {
+                "density[def: 0.02]": 0.02,
+                "limit[def: false]": false
+              },
+              "wart_seed": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: false]": false
+              },
+              "black_bush": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: false]": false
+              }
+            },
+            "ceil": {
+              "netherrack_stalagmite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "glowstone_stalagmite": {
+                "density[def: 0.005]": 0.005,
+                "limit[def: true]": true
+              }
+            }
+          },
+          "schematics": [
+            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
+            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
+            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
+            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
+            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
+            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
+            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
+            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
+          ],
+          "plants_and_structures_density[def: 1.0]": 1.0,
+          "noise_density[def: 0.35]": 0.35
+        },
+        "bone_reef": {
+          "procedural": {
+            "wall": {
+              "cap_gen": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              }
+            },
+            "floor": {
+              "bone_stalactite": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "nether_reed": {
+                "density[def: 0.5]": 0.5,
+                "limit[def: false]": false
+              },
+              "bone_reef": {
+                "density[def: 0.2]": 0.2,
+                "limit[def: true]": true
+              },
+              "jellyfish_mushroom": {
+                "density[def: 0.02]": 0.02,
+                "limit[def: true]": true
+              },
+              "feather_fern": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "bone_grass": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: false]": false
+              }
+            },
+            "ceil": {
+              "bone_stalagmite": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "lumabus_vine": {
+                "density[def: 0.3]": 0.3,
+                "limit[def: true]": true
+              }
+            }
+          },
+          "schematics": [
+            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
+            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
+            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
+            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
+            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
+            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
+            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
+            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
+          ],
+          "plants_and_structures_density[def: 1.0]": 1.0,
+          "noise_density[def: 0.35]": 0.35
+        },
+        "sulfuric_bone_reef": {
+          "procedural": {
+            "wall": {
+              "cap_gen": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              }
+            },
+            "floor": {
+              "bone_stalactite": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "nether_reed": {
+                "density[def: 0.5]": 0.5,
+                "limit[def: false]": false
+              },
+              "bone_reef": {
+                "density[def: 0.2]": 0.2,
+                "limit[def: true]": true
+              },
+              "jellyfish_mushroom": {
+                "density[def: 0.02]": 0.02,
+                "limit[def: true]": true
+              },
+              "sulfuric_bone_grass": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: false]": false
+              }
+            },
+            "ceil": {
+              "bone_stalagmite": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "golden_lumabus_vine": {
+                "density[def: 0.3]": 0.3,
+                "limit[def: true]": true
+              }
+            }
+          },
+          "schematics": [
+            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
+            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
+            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
+            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
+            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
+            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
+            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
+            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
+          ],
+          "plants_and_structures_density[def: 1.0]": 1.0,
+          "noise_density[def: 0.35]": 0.35
+        },
+        "poor_nether_grasslands": {
+          "procedural": {
+            "wall": {
+              "cap_gen": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              }
+            },
+            "floor": {
+              "netherrack_stalactite": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "glowstone_stalactite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "nether_reed": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: false]": false
+              },
+              "nether_wart": {
+                "density[def: 0.005]": 0.005,
+                "limit[def: true]": true
+              },
+              "magma_flower": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "smoker": {
+                "density[def: 0.005]": 0.005,
+                "limit[def: true]": true
+              },
+              "ink_bush": {
+                "density[def: 0.005]": 0.005,
+                "limit[def: true]": true
+              },
+              "black_apple": {
+                "density[def: 0.001]": 0.001,
+                "limit[def: true]": true
+              },
+              "black_bush": {
+                "density[def: 0.002]": 0.002,
+                "limit[def: true]": true
+              },
+              "wart_seed": {
+                "density[def: 0.002]": 0.002,
+                "limit[def: true]": true
+              },
+              "nether_grass": {
+                "density[def: 0.04]": 0.04,
+                "limit[def: true]": true
+              }
+            },
+            "ceil": {
+              "netherrack_stalagmite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "glowstone_stalagmite": {
+                "density[def: 0.005]": 0.005,
+                "limit[def: true]": true
+              }
+            }
+          },
+          "schematics": [
+            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
+            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
+            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
+            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
+            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
+            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
+            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
+            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
+          ],
+          "plants_and_structures_density[def: 1.0]": 1.0,
+          "noise_density[def: 0.35]": 0.35
+        },
+        "nether_swampland": {
+          "procedural": {
+            "wall": {
+              "cap_gen": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              },
+              "wall_moss": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              },
+              "wall_red_mushroom": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              },
+              "wall_brown_mushroom": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              }
+            },
+            "floor": {
+              "netherrack_stalactite": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "glowstone_stalactite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "willow": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: false]": false
+              },
+              "willow_bush": {
+                "density[def: 0.2]": 0.2,
+                "limit[def: true]": true
+              },
+              "feather_fern": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "nether_reed": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: false]": false
+              },
+              "soul_vein": {
+                "density[def: 0.5]": 0.5,
+                "limit[def: false]": false
+              },
+              "smoker": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: false]": false
+              },
+              "jellyfish_mushroom": {
+                "density[def: 0.03]": 0.03,
+                "limit[def: true]": true
+              },
+              "black_bush": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: false]": false
+              },
+              "swamp_grass": {
+                "density[def: 0.4]": 0.4,
+                "limit[def: false]": false
+              }
+            },
+            "ceil": {
+              "netherrack_stalagmite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "glowstone_stalagmite": {
+                "density[def: 0.005]": 0.005,
+                "limit[def: true]": true
+              },
+              "black_vine": {
+                "density[def: 0.4]": 0.4,
+                "limit[def: true]": true
+              }
+            }
+          },
+          "schematics": [
+            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
+            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
+            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
+            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
+            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
+            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
+            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
+            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
+          ],
+          "plants_and_structures_density[def: 1.0]": 1.0,
+          "noise_density[def: 0.35]": 0.35
+        },
+        "nether_swampland_terraces": {
+          "procedural": {
+            "wall": {
+              "cap_gen": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              },
+              "wall_moss": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              },
+              "wall_red_mushroom": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              },
+              "wall_brown_mushroom": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              }
+            },
+            "floor": {
+              "netherrack_stalactite": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "glowstone_stalactite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "willow": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: false]": false
+              },
+              "willow_bush": {
+                "density[def: 0.2]": 0.2,
+                "limit[def: true]": true
+              },
+              "feather_fern": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "nether_reed": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: false]": false
+              },
+              "soul_vein": {
+                "density[def: 0.5]": 0.5,
+                "limit[def: false]": false
+              },
+              "smoker": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: false]": false
+              },
+              "jellyfish_mushroom": {
+                "density[def: 0.03]": 0.03,
+                "limit[def: true]": true
+              },
+              "black_bush": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: false]": false
+              },
+              "swamp_grass": {
+                "density[def: 0.4]": 0.4,
+                "limit[def: false]": false
+              }
+            },
+            "ceil": {
+              "netherrack_stalagmite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "glowstone_stalagmite": {
+                "density[def: 0.005]": 0.005,
+                "limit[def: true]": true
+              },
+              "black_vine": {
+                "density[def: 0.4]": 0.4,
+                "limit[def: true]": true
+              }
+            }
+          },
+          "schematics": [
+            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
+            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
+            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
+            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
+            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
+            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
+            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
+            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
+          ],
+          "plants_and_structures_density[def: 1.0]": 1.0,
+          "noise_density[def: 0.35]": 0.35
+        },
+        "magma_land": {
+          "procedural": {
+            "wall": {
+              "cap_gen": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              }
+            },
+            "floor": {
+              "netherrack_stalactite": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "glowstone_stalactite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "geyser": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: false]": false
+              },
+              "obsidian_crystals": {
+                "density[def: 0.04]": 0.04,
+                "limit[def: true]": true
+              },
+              "magma_flower": {
+                "density[def: 0.4]": 0.4,
+                "limit[def: false]": false
+              }
+            },
+            "ceil": {
+              "netherrack_stalagmite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "glowstone_stalagmite": {
+                "density[def: 0.005]": 0.005,
+                "limit[def: true]": true
+              },
+              "golden_vine": {
+                "density[def: 0.2]": 0.2,
+                "limit[def: true]": true
+              }
+            }
+          },
+          "schematics": [
+            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
+            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
+            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
+            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
+            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
+            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
+            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
+            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
+          ],
+          "plants_and_structures_density[def: 1.0]": 1.0,
+          "noise_density[def: 0.35]": 0.35
+        },
+        "soul_plain": {
+          "procedural": {
+            "wall": {
+              "cap_gen": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              }
+            },
+            "floor": {
+              "netherrack_stalactite": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "glowstone_stalactite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "soul_vein": {
+                "density[def: 0.5]": 0.5,
+                "limit[def: true]": true
+              },
+              "black_bush": {
+                "density[def: 0.02]": 0.02,
+                "limit[def: false]": false
+              },
+              "soul_grass": {
+                "density[def: 0.3]": 0.3,
+                "limit[def: false]": false
+              }
+            },
+            "ceil": {
+              "netherrack_stalagmite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "glowstone_stalagmite": {
+                "density[def: 0.005]": 0.005,
+                "limit[def: true]": true
+              }
+            }
+          },
+          "schematics": [
+            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
+            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
+            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
+            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
+            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
+            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
+            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
+            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
+          ],
+          "plants_and_structures_density[def: 1.0]": 1.0,
+          "noise_density[def: 0.35]": 0.35
+        },
+        "crimson_glowing_woods": {
+          "procedural": {
+            "wall": {
+              "cap_gen": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              },
+              "wall_moss": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              },
+              "wall_red_mushroom": {
+                "density[def: 0.4]": 0.4,
+                "limit[def: true]": true
+              }
+            },
+            "floor": {
+              "netherrack_stalactite": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "glowstone_stalactite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "crimson_glowing_tree": {
+                "density[def: 0.2]": 0.2,
+                "limit[def: false]": false
+              },
+              "wart_bush": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: false]": false
+              },
+              "wart_seed": {
+                "density[def: 0.02]": 0.02,
+                "limit[def: true]": true
+              },
+              "crimson_fungus": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "crimson_roots": {
+                "density[def: 0.2]": 0.2,
+                "limit[def: true]": true
+              }
+            },
+            "ceil": {
+              "netherrack_stalagmite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "glowstone_stalagmite": {
+                "density[def: 0.005]": 0.005,
+                "limit[def: true]": true
+              },
+              "golden_vine": {
+                "density[def: 0.3]": 0.3,
+                "limit[def: true]": true
+              }
+            }
+          },
+          "schematics": [
+            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
+            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
+            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
+            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
+            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
+            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
+            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
+            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
+          ],
+          "plants_and_structures_density[def: 1.0]": 1.0,
+          "noise_density[def: 0.35]": 0.35
+        },
+        "old_warped_woods": {
+          "procedural": {
+            "wall": {
+              "cap_gen": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              }
+            },
+            "floor": {
+              "netherrack_stalactite": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "glowstone_stalactite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "big_warped_tree": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: false]": false
+              },
+              "warped_fungus": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "warped_roots": {
+                "density[def: 0.2]": 0.2,
+                "limit[def: true]": true
+              },
+              "twisted_vine": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: true]": true
+              }
+            },
+            "ceil": {
+              "netherrack_stalagmite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "glowstone_stalagmite": {
+                "density[def: 0.005]": 0.005,
+                "limit[def: true]": true
+              },
+              "black_vine": {
+                "density[def: 0.3]": 0.3,
+                "limit[def: true]": true
+              }
+            }
+          },
+          "schematics": [
+            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
+            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
+            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
+            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
+            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
+            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
+            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
+            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
+          ],
+          "plants_and_structures_density[def: 1.0]": 1.0,
+          "noise_density[def: 0.35]": 0.35
+        },
+        "crimson_pinewood": {
+          "procedural": {
+            "wall": {
+              "cap_gen": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              },
+              "wall_moss": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              },
+              "wall_red_mushroom": {
+                "density[def: 0.4]": 0.4,
+                "limit[def: true]": true
+              }
+            },
+            "floor": {
+              "netherrack_stalactite": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "glowstone_stalactite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "crimson_pinewood": {
+                "density[def: 0.2]": 0.2,
+                "limit[def: false]": false
+              },
+              "wart_bush": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: false]": false
+              },
+              "wart_seed": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "crimson_fungus": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "crimson_roots": {
+                "density[def: 0.2]": 0.2,
+                "limit[def: true]": true
+              }
+            },
+            "ceil": {
+              "netherrack_stalagmite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "glowstone_stalagmite": {
+                "density[def: 0.005]": 0.005,
+                "limit[def: true]": true
+              },
+              "golden_vine": {
+                "density[def: 0.3]": 0.3,
+                "limit[def: true]": true
+              }
+            }
+          },
+          "schematics": [
+            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
+            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
+            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
+            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
+            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
+            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
+            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
+            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
+          ],
+          "plants_and_structures_density[def: 1.0]": 1.0,
+          "noise_density[def: 0.35]": 0.35
+        },
+        "old_fungiwoods": {
+          "procedural": {
+            "wall": {
+              "cap_gen": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              },
+              "wall_red_mushroom": {
+                "density[def: 0.9]": 0.9,
+                "limit[def: true]": true
+              },
+              "wall_brown_mushroom": {
+                "density[def: 0.9]": 0.9,
+                "limit[def: true]": true
+              }
+            },
+            "floor": {
+              "netherrack_stalactite": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "glowstone_stalactite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "old_red_mushrooms": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: false]": false
+              },
+              "old_brown_mushrooms": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: false]": false
+              },
+              "large_red_mushroom": {
+                "density[def: 0.12]": 0.12,
+                "limit[def: true]": true
+              },
+              "large_brown_mushroom": {
+                "density[def: 0.12]": 0.12,
+                "limit[def: true]": true
+              },
+              "vanilla_mushrooms": {
+                "density[def: 0.5]": 0.5,
+                "limit[def: false]": false
+              },
+              "red_mold": {
+                "density[def: 0.9]": 0.9,
+                "limit[def: true]": true
+              },
+              "gray_mold": {
+                "density[def: 0.9]": 0.9,
+                "limit[def: true]": true
+              }
+            },
+            "ceil": {
+              "netherrack_stalagmite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "glowstone_stalagmite": {
+                "density[def: 0.005]": 0.005,
+                "limit[def: true]": true
+              }
+            }
+          },
+          "schematics": [
+            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
+            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
+            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
+            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
+            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
+            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
+            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
+            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
+          ],
+          "plants_and_structures_density[def: 1.0]": 1.0,
+          "noise_density[def: 0.35]": 0.35
+        },
+        "flooded_deltas": {
+          "procedural": {
+            "wall": {
+              "cap_gen": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              }
+            },
+            "floor": {
+              "blackstone_stalactite": {
+                "density[def: 0.2]": 0.2,
+                "limit[def: true]": true
+              },
+              "stalactite_stalactite": {
+                "density[def: 0.2]": 0.2,
+                "limit[def: true]": true
+              }
+            },
+            "ceil": {
+              "blackstone_stalagmite": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: true]": true
+              },
+              "basalt_stalagmite": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: true]": true
+              }
+            }
+          },
+          "schematics": [
+            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
+            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
+            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
+            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
+            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
+            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
+            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
+            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
+          ],
+          "plants_and_structures_density[def: 1.0]": 1.0,
+          "noise_density[def: 0.35]": 0.35
+        },
+        "upside_down_forest": {
+          "procedural": {
+            "wall": {
+              "cap_gen": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              },
+              "jungle_moss": {
+                "density[def: 0.4]": 0.4,
+                "limit[def: true]": true
+              },
+              "wall_red_mushroom": {
+                "density[def: 0.4]": 0.4,
+                "limit[def: true]": true
+              },
+              "wall_brown_mushroom": {
+                "density[def: 0.4]": 0.4,
+                "limit[def: true]": true
+              }
+            },
+            "ceil": {
+              "anchor_tree": {
+                "density[def: 0.2]": 0.2,
+                "limit[def: false]": false
+              },
+              "anchor_tree_root": {
+                "density[def: 0.03]": 0.03,
+                "limit[def: false]": false
+              },
+              "anchor_tree_branch": {
+                "density[def: 0.02]": 0.02,
+                "limit[def: true]": true
+              },
+              "nether_sakura": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "ceiling_mushrooms": {
+                "density[def: 1.0]": 1.0,
+                "limit[def: false]": false
+              },
+              "neon_equisetum": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: true]": true
+              },
+              "hook_mushroom": {
+                "density[def: 0.03]": 0.03,
+                "limit[def: true]": true
+              },
+              "whispering_gourd": {
+                "density[def: 0.02]": 0.02,
+                "limit[def: true]": true
+              }
+            },
+            "floor": {
+              "nether_sakura_bush": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "moss_cover": {
+                "density[def: 0.6]": 0.6,
+                "limit[def: false]": false
+              },
+              "forest_litter": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: false]": false
+              }
+            }
+          },
+          "schematics": [],
+          "plants_and_structures_density[def: 1.0]": 1.0,
+          "noise_density[def: 0.35]": 0.35
+        },
+        "old_swampland": {
+          "procedural": {
+            "wall": {
+              "cap_gen": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              },
+              "wall_moss": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              },
+              "wall_red_mushroom": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              },
+              "wall_brown_mushroom": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              }
+            },
+            "floor": {
+              "netherrack_stalactite": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "glowstone_stalactite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "old_willow": {
+                "density[def: 0.02]": 0.02,
+                "limit[def: false]": false
+              },
+              "willow": {
+                "density[def: 0.02]": 0.02,
+                "limit[def: false]": false
+              },
+              "willow_bush": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: true]": true
+              },
+              "feather_fern": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: true]": true
+              },
+              "nether_reed": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: false]": false
+              },
+              "soul_vein": {
+                "density[def: 0.5]": 0.5,
+                "limit[def: false]": false
+              },
+              "smoker": {
+                "density[def: 0.05]": 0.05,
+                "limit[def: false]": false
+              },
+              "jellyfish_mushroom": {
+                "density[def: 0.03]": 0.03,
+                "limit[def: true]": true
+              },
+              "black_bush": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: false]": false
+              },
+              "swamp_grass": {
+                "density[def: 0.4]": 0.4,
+                "limit[def: false]": false
+              }
+            },
+            "ceil": {
+              "netherrack_stalagmite": {
+                "density[def: 0.01]": 0.01,
+                "limit[def: true]": true
+              },
+              "glowstone_stalagmite": {
+                "density[def: 0.005]": 0.005,
+                "limit[def: true]": true
+              },
+              "black_vine": {
+                "density[def: 0.4]": 0.4,
+                "limit[def: true]": true
+              }
+            }
+          },
+          "schematics": [
+            "name: altar_01; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_02; offset: -4; type: floor; chance: 1.000000",
+            "name: altar_03; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_04; offset: -3; type: floor; chance: 1.000000",
+            "name: altar_05; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_06; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_07; offset: -2; type: floor; chance: 1.000000",
+            "name: altar_08; offset: -2; type: floor; chance: 1.000000",
+            "name: portal_01; offset: -4; type: floor; chance: 1.000000",
+            "name: portal_02; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_01; offset: -3; type: floor; chance: 1.000000",
+            "name: garden_02; offset: -2; type: floor; chance: 1.000000",
+            "name: pillar_01; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_02; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_03; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_04; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_05; offset: -1; type: floor; chance: 1.000000",
+            "name: pillar_06; offset: -1; type: floor; chance: 1.000000",
+            "name: respawn_point_01; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_02; offset: -2; type: floor; chance: 1.000000",
+            "name: respawn_point_03; offset: -3; type: floor; chance: 1.000000",
+            "name: respawn_point_04; offset: -2; type: floor; chance: 1.000000",
+            "name: spawn_altar_ladder; offset: -5; type: floor; chance: 1.000000",
+            "name: ghast_hive; offset: -20; type: ceil; chance: 1.000000",
+            "name: lava/pyramid_1; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_2; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_3; offset: -1; type: lava; chance: 1.000000",
+            "name: lava/pyramid_4; offset: -1; type: lava; chance: 1.000000"
+          ],
+          "plants_and_structures_density[def: 1.0]": 1.0,
+          "noise_density[def: 0.35]": 0.35
+        },
+        "upside_down_forest_cleared": {
+          "procedural": {
+            "wall": {
+              "cap_gen": {
+                "density[def: 0.8]": 0.8,
+                "limit[def: true]": true
+              },
+              "jungle_moss": {
+                "density[def: 0.4]": 0.4,
+                "limit[def: true]": true
+              },
+              "wall_red_mushroom": {
+                "density[def: 0.4]": 0.4,
+                "limit[def: true]": true
+              },
+              "wall_brown_mushroom": {
+                "density[def: 0.4]": 0.4,
+                "limit[def: true]": true
+              }
+            },
+            "floor": {
+              "moss_cover": {
+                "density[def: 0.6]": 0.6,
+                "limit[def: false]": false
+              },
+              "forest_litter": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: false]": false
+              }
+            },
+            "ceil": {
+              "ceiling_mushrooms": {
+                "density[def: 1.0]": 1.0,
+                "limit[def: false]": false
+              },
+              "neon_equisetum": {
+                "density[def: 0.1]": 0.1,
+                "limit[def: true]": true
+              },
+              "hook_mushroom": {
+                "density[def: 0.03]": 0.03,
+                "limit[def: true]": true
+              },
+              "whispering_gourd": {
+                "density[def: 0.02]": 0.02,
+                "limit[def: true]": true
+              }
+            }
+          },
+          "schematics": [],
+          "plants_and_structures_density[def: 1.0]": 1.0,
+          "noise_density[def: 0.35]": 0.35
+        }
+      }
+    }
+  }
+}

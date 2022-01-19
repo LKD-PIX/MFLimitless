@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "block/ground_foliage/flowers/dandelion"
+      },
+	  {
+        "model": "block/ground_foliage/flowers/dandelion1"
+      },
+	  {
+        "model": "block/ground_foliage/flowers/dandelion2"
+      },
+      {
+        "model": "block/ground_foliage/flowers/dandelion3"
+      },
+	  {
+        "model": "block/ground_foliage/flowers/dandelion4"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+
+FALLS IHR PROBLEME BEIM STARTEN HABT:
+
+
+Setze das Java Verzeichnis in den Profileinstellungen auf:
+!Dieser Ordner! /Java/bin/javaw.exe
+
+
+Zum Beispiel C:\Users\Lukas\Desktop\1.18_Limitless\Java\bin\javaw.exe
+Falls sich die Installation auf dem Desktop befindet.
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "block/ground_foliage/flowers/allium"
+      },
+	  {
+        "model": "block/ground_foliage/flowers/allium1"
+      },
+	  {
+        "model": "block/ground_foliage/flowers/allium2"
+      },
+      {
+        "model": "block/ground_foliage/flowers/allium3"
+      },
+      {
+        "model": "block/ground_foliage/flowers/allium4"
+      },
+      {
+        "model": "block/ground_foliage/flowers/allium5"
+      },
+	  {
+        "model": "block/ground_foliage/flowers/allium6"
+      },
+	  {
+        "model": "block/ground_foliage/flowers/allium7"
+      },
+      {
+        "model": "block/ground_foliage/flowers/allium8"
+      },
+      {
+        "model": "block/ground_foliage/flowers/allium9"
+      },
+	  {
+        "model": "block/ground_foliage/flowers/allium10"
+      },
+	  {
+        "model": "block/ground_foliage/flowers/allium11"
+      },
+      {
+        "model": "block/ground_foliage/flowers/allium12"
+      },
+      {
+        "model": "block/ground_foliage/flowers/allium13"
+      },
+      {
+        "model": "block/ground_foliage/flowers/allium14"
+      },
+      {
+        "model": "block/ground_foliage/flowers/allium15"
+      }
+    ]
+  }
+}

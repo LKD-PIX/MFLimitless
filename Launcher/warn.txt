@@ -1,0 +1,12 @@
+
+
+
+
+
+
+                               +---------------------------------+
+                               | THIS LAUNCHER IS NOT LOG4J SAFE |
+                               |   DO NOT ACCESS PUBLIC SERVERS  |
+                               +---------------------------------+
+                               ᴹᶠˡⁱᵐⁱᵗˡᵉˢˢ
+

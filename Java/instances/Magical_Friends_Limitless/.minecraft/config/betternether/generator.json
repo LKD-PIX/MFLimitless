@@ -1,0 +1,123 @@
+{
+  "generator": {
+    "world": {
+      "structures_density [default: 0.0625]": 0.0625,
+      "lava_structures_density [default: 0.005]": 0.005,
+      "global_plant_and_structures_density [default: 1.0]": 1.0,
+      "ores": {
+        "cincinnasite": {
+          "vein_count [default: 10]": 10,
+          "vein_size [default: 8]": 8,
+          "air_discard_chance [default: 0.0]": 0.0
+        },
+        "nether_ruby": {
+          "vein_count [default: 5]": 5,
+          "vein_size [default: 8]": 8,
+          "vein_count [default: 3]": 3,
+          "air_discard_chance [default: 0.0]": 0.0
+        },
+        "nether_ruby_top": {
+          "vein_count [default: 3]": 3,
+          "vein_size [default: 6]": 6
+        },
+        "nether_lapis": {
+          "vein_count [default: 18]": 18,
+          "vein_size [default: 4]": 4,
+          "air_discard_chance [default: 0.0]": 0.0
+        },
+        "nether_redstone": {
+          "vein_count [default: 1]": 1,
+          "vein_size [default: 16]": 16,
+          "air_discard_chance [default: 0.3]": 0.3
+        },
+        "nether_ruby_soul": {
+          "vein_count [default: 16]": 16,
+          "vein_size [default: 12]": 12,
+          "air_discard_chance [default: 0.0]": 0.0
+        },
+        "nether_ruby_large": {
+          "vein_count [default: 16]": 16,
+          "vein_size [default: 12]": 12,
+          "air_discard_chance [default: 0.0]": 0.0
+        },
+        "nether_ruby_rare": {
+          "vein_count [default: 2]": 2,
+          "vein_size [default: 12]": 12,
+          "air_discard_chance [default: 0.0]": 0.0
+        }
+      },
+      "terrain": {
+        "terrain_cleaning_pass [default: true]": true,
+        "world_fixing_pass [default: true]": true
+      },
+      "environment": {
+        "generate_caves [default: true]": true,
+        "generate_paths [default: true]": true
+      },
+      "cities": {
+        "distance [default: 64]": 64,
+        "overworld [default: false]": false
+      }
+    }
+  },
+  "generator_world": {
+    "biome_size_xz [default: 200]": 200,
+    "biome_size_y [default: 40]": 40,
+    "volumetric_biomes [default: true]": true
+  },
+  "biomes": {
+    "betternether": {
+      "main": {
+        "gravel_desert_chance [default: 1.0]": 1.0,
+        "nether_jungle_chance [default: 1.0]": 1.0,
+        "wart_forest_chance [default: 1.0]": 1.0,
+        "nether_grasslands_chance [default: 1.0]": 1.0,
+        "nether_mushroom_forest_chance [default: 1.0]": 1.0,
+        "bone_reef_chance [default: 1.0]": 1.0,
+        "nether_swampland_chance [default: 1.0]": 1.0,
+        "magma_land_chance [default: 1.0]": 1.0,
+        "upside_down_forest_chance [default: 1.0]": 1.0,
+        "nether_mushroom_forest_edge_chance [default: 1.0]": 1.0,
+        "wart_forest_edge_chance [default: 1.0]": 1.0,
+        "sulfuric_bone_reef_chance [default: 1.0]": 1.0,
+        "poor_nether_grasslands_chance [default: 1.0]": 1.0,
+        "nether_swampland_terraces_chance [default: 1.0]": 1.0,
+        "soul_plain_chance [default: 1.0]": 1.0,
+        "crimson_glowing_woods_chance [default: 1.0]": 1.0,
+        "old_warped_woods_chance [default: 1.0]": 1.0,
+        "crimson_pinewood_chance [default: 1.0]": 1.0,
+        "old_fungiwoods_chance [default: 1.0]": 1.0,
+        "flooded_deltas_chance [default: 1.0]": 1.0,
+        "old_swampland_chance [default: 1.0]": 1.0,
+        "upside_down_forest_cleared_chance [default: 1.0]": 1.0
+      },
+      "edge": {
+        "nether_mushroom_forest_edge_size [default: 2.0]": 2.0,
+        "wart_forest_edge_size [default: 2.0]": 2.0,
+        "nether_mushroom_forest_edge_size [default: 6.0]": 6.0,
+        "wart_forest_edge_size [default: 9.0]": 9.0
+      },
+      "variation": {
+        "sulfuric_bone_reef_chance [default: 0.3]": 0.3,
+        "poor_nether_grasslands_chance [default: 0.3]": 0.3,
+        "nether_swampland_terraces_chance [default: 1.0]": 1.0,
+        "soul_plain_chance [default: 1.0]": 1.0,
+        "crimson_glowing_woods_chance [default: 0.3]": 0.3,
+        "old_warped_woods_chance [default: 1.0]": 1.0,
+        "crimson_pinewood_chance [default: 0.3]": 0.3,
+        "old_fungiwoods_chance [default: 0.3]": 0.3,
+        "flooded_deltas_chance [default: 1.0]": 1.0,
+        "old_swampland_chance [default: 1.0]": 1.0
+      }
+    },
+    "minecraft": {
+      "main": {
+        "nether_wastes_chance [default: 1.0]": 1.0,
+        "warped_forest_chance [default: 1.0]": 1.0,
+        "crimson_forest_chance [default: 1.0]": 1.0,
+        "soul_sand_valley_chance [default: 1.0]": 1.0,
+        "basalt_deltas_chance [default: 1.0]": 1.0
+      }
+    }
+  }
+}

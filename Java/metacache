@@ -1,0 +1,29 @@
+{
+    "entries": [
+        {
+            "base": "root",
+            "etag": "\"550e6bb5-356\"",
+            "last_changed_timestamp": 1640790220950,
+            "md5sum": "a8a8094545267c76ad51fe276b0e9e8f",
+            "path": "notifications.json",
+            "remote_changed_timestamp": "Sun, 22 Mar 2015 07:13:57 GMT"
+        },
+        {
+            "base": "translations",
+            "etag": "\"61be22bc-3ad3\"",
+            "last_changed_timestamp": 1640790220903,
+            "md5sum": "b95d7349d69e761f814a09d756d5ccd5",
+            "path": "index_v2.json",
+            "remote_changed_timestamp": "Sat, 18 Dec 2021 18:04:44 GMT"
+        },
+        {
+            "base": "translations",
+            "etag": "\"61be22bc-26476\"",
+            "last_changed_timestamp": 1640790221126,
+            "md5sum": "6818b66182ae1681c457e5ff695714c1",
+            "path": "mmc_de.qm",
+            "remote_changed_timestamp": "Sat, 18 Dec 2021 18:04:44 GMT"
+        }
+    ],
+    "version": "1"
+}

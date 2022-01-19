@@ -1,0 +1,114 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"2": "block/redstone/redstone_dust_line0",
+		"particle": "block/redstone/redstone_dust_line0"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 15],
+			"to": [8, 0.5, 16],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [8, 3, 9, 4], "rotation": 180, "texture": "#2", "tintindex": 0},
+				"east": {"uv": [8, 12, 9, 13], "rotation": 90, "texture": "#2", "tintindex": 0},
+				"south": {"uv": [7, 12, 8, 13], "texture": "#2", "tintindex": 0},
+				"west": {"uv": [7, 10, 8, 11], "rotation": 270, "texture": "#2", "tintindex": 0},
+				"up": {"uv": [7, 15, 8, 16], "texture": "#2", "tintindex": 0},
+				"down": {"uv": [7, 12, 8, 13], "rotation": 180, "texture": "#2", "tintindex": 0}
+			}
+		},
+		{
+			"from": [7, 0, 12],
+			"to": [8, 0.5, 13],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [8, 3, 9, 4], "rotation": 180, "texture": "#2", "tintindex": 0},
+				"east": {"uv": [8, 12, 9, 13], "rotation": 90, "texture": "#2", "tintindex": 0},
+				"south": {"uv": [7, 12, 8, 13], "texture": "#2", "tintindex": 0},
+				"west": {"uv": [7, 10, 8, 11], "rotation": 270, "texture": "#2", "tintindex": 0},
+				"up": {"uv": [7, 12, 8, 13], "texture": "#2", "tintindex": 0},
+				"down": {"uv": [7, 12, 8, 13], "rotation": 180, "texture": "#2", "tintindex": 0}
+			}
+		},
+		{
+			"from": [6, 0, 11],
+			"to": [7, 0.5, 12],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [8, 3, 9, 4], "rotation": 180, "texture": "#2", "tintindex": 0},
+				"east": {"uv": [8, 12, 9, 13], "rotation": 90, "texture": "#2", "tintindex": 0},
+				"south": {"uv": [7, 12, 8, 13], "texture": "#2", "tintindex": 0},
+				"west": {"uv": [7, 10, 8, 11], "rotation": 270, "texture": "#2", "tintindex": 0},
+				"up": {"uv": [6, 11, 7, 12], "texture": "#2", "tintindex": 0},
+				"down": {"uv": [7, 12, 8, 13], "rotation": 180, "texture": "#2", "tintindex": 0}
+			}
+		},
+		{
+			"from": [7, 0, 10],
+			"to": [9, 0.5, 11],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [8, 3, 9, 4], "rotation": 180, "texture": "#2", "tintindex": 0},
+				"east": {"uv": [8, 12, 9, 13], "rotation": 90, "texture": "#2", "tintindex": 0},
+				"south": {"uv": [7, 12, 8, 13], "texture": "#2", "tintindex": 0},
+				"west": {"uv": [7, 10, 8, 11], "rotation": 270, "texture": "#2", "tintindex": 0},
+				"up": {"uv": [7, 10, 9, 11], "texture": "#2", "tintindex": 0},
+				"down": {"uv": [7, 12, 8, 13], "rotation": 180, "texture": "#2", "tintindex": 0}
+			}
+		},
+		{
+			"from": [7, 0, 9],
+			"to": [8, 0.5, 10],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [8, 3, 9, 4], "rotation": 180, "texture": "#2", "tintindex": 0},
+				"east": {"uv": [8, 12, 9, 13], "rotation": 90, "texture": "#2", "tintindex": 0},
+				"south": {"uv": [7, 12, 8, 13], "texture": "#2", "tintindex": 0},
+				"west": {"uv": [7, 10, 8, 11], "rotation": 270, "texture": "#2", "tintindex": 0},
+				"up": {"uv": [7, 9, 8, 10], "texture": "#2", "tintindex": 0},
+				"down": {"uv": [7, 12, 8, 13], "rotation": 180, "texture": "#2", "tintindex": 0}
+			}
+		},
+		{
+			"from": [8, 0, 8],
+			"to": [9, 0.5, 9],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [8, 3, 9, 4], "rotation": 180, "texture": "#2", "tintindex": 0},
+				"east": {"uv": [8, 12, 9, 13], "rotation": 90, "texture": "#2", "tintindex": 0},
+				"south": {"uv": [7, 12, 8, 13], "texture": "#2", "tintindex": 0},
+				"west": {"uv": [7, 10, 8, 11], "rotation": 270, "texture": "#2", "tintindex": 0},
+				"up": {"uv": [8, 8, 9, 9], "texture": "#2", "tintindex": 0},
+				"down": {"uv": [7, 12, 8, 13], "rotation": 180, "texture": "#2", "tintindex": 0}
+			}
+		},
+		{
+			"from": [8, 0, 12],
+			"to": [9, 0.5, 15],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [8, 3, 9, 4], "rotation": 180, "texture": "#2", "tintindex": 0},
+				"east": {"uv": [8, 12, 9, 13], "rotation": 90, "texture": "#2", "tintindex": 0},
+				"south": {"uv": [7, 12, 8, 13], "texture": "#2", "tintindex": 0},
+				"west": {"uv": [7, 10, 8, 11], "rotation": 270, "texture": "#2", "tintindex": 0},
+				"up": {"uv": [8, 12, 9, 15], "texture": "#2", "tintindex": 0},
+				"down": {"uv": [7, 12, 8, 13], "rotation": 180, "texture": "#2", "tintindex": 0}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "redstone_dust_side_alt",
+			"origin": [8, 8, 8],
+			"children": [
+				{
+					"name": "redstone_dust_up",
+					"origin": [8, 8, 8],
+					"children": [0, 1, 2, 3, 4, 5, 6]
+				}
+			]
+		}
+	]
+}

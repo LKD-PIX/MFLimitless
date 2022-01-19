@@ -1,0 +1,17 @@
+{
+  "text.autoconfig.automated_crafting.title": "Configuração de criação automatizada",
+  "item.automated_crafting.auto_crafter": "Mesa de trabalho automatizada",
+  "block.automated_crafting.auto_crafter": "Mesa de trabalho automatizada",
+  "text.autoconfig.automated_crafting.option.simpleMode": "Ativar o modo simples",
+  "text.autoconfig.automated_crafting.option.simpleMode.@Tooltip": "In simple mode you can set a recipe template",
+  "text.autoconfig.automated_crafting.option.quasiConnectivity": "Ativar quasi-conectividade",
+  "text.autoconfig.automated_crafting.option.quasiConnectivity.@Tooltip": "If the block above an auto crafter would be powered, the auto crafter is powered (but not updated)",
+  "text.autoconfig.automated_crafting.option.redirectsRedstone": "Ativar redirecionamento de pó de redstone",
+  "text.autoconfig.automated_crafting.option.redirectsRedstone.@Tooltip": "Redstone dust next to auto an crafter will point into the auto crafter",
+  "text.autoconfig.automated_crafting.option.craftContinuously": "Fabricar continuamente enquanto alimentado",
+  "text.autoconfig.automated_crafting.option.craftContinuously.@Tooltip": "When an auto crafter is powered and contains a valid recipe, that recipe will be crafted immediately",
+  "text.autoconfig.automated_crafting.option.comparatorReadsOutput": "O comparador lê 15 se a saída não estiver vazia",
+  "text.autoconfig.automated_crafting.option.comparatorReadsOutput.@Tooltip": "A comparator reading an auto crafter with anything in its output slot will read 15",
+  "label.automated_crafting.template": "Modelo",
+  "label.automated_crafting.input": "Entrada"
+}

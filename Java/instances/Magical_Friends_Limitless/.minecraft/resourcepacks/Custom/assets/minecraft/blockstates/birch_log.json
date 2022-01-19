@@ -1,0 +1,109 @@
+{
+  "variants": {
+    "axis=x": [
+	{ "model": "minecraft:block/birch_log_horizontal", "x": 90, "y": 90},
+	{ "model": "minecraft:block/birch_log1_horizontal", "x": 90, "y": 90},
+	{ "model": "minecraft:block/birch_log2_horizontal", "x": 90, "y": 90},
+	{ "model": "minecraft:block/birch_log3_horizontal", "x": 90, "y": 90},
+	{ "model": "minecraft:block/birch_log4_horizontal", "x": 90, "y": 90},
+	{ "model": "minecraft:block/birch_log5_horizontal", "x": 90, "y": 90},
+	{ "model": "minecraft:block/birch_log6_horizontal", "x": 90, "y": 90},
+	
+	{ "model": "minecraft:block/birch_log_h_horizontal", "x": 90, "y": 90},
+	{ "model": "minecraft:block/birch_log1_h_horizontal", "x": 90, "y": 90},
+	{ "model": "minecraft:block/birch_log2_h_horizontal", "x": 90, "y": 90},
+	{ "model": "minecraft:block/birch_log3_h_horizontal", "x": 90, "y": 90},
+	{ "model": "minecraft:block/birch_log4_h_horizontal", "x": 90, "y": 90},
+	{ "model": "minecraft:block/birch_log5_h_horizontal", "x": 90, "y": 90},
+	{ "model": "minecraft:block/birch_log6_h_horizontal", "x": 90, "y": 90},
+	
+	{ "model": "minecraft:block/birch_log_v_horizontal", "x": 90, "y": 90},
+	{ "model": "minecraft:block/birch_log1_v_horizontal", "x": 90, "y": 90},
+	{ "model": "minecraft:block/birch_log2_v_horizontal", "x": 90, "y": 90},
+	{ "model": "minecraft:block/birch_log3_v_horizontal", "x": 90, "y": 90},
+	{ "model": "minecraft:block/birch_log4_v_horizontal", "x": 90, "y": 90},
+	{ "model": "minecraft:block/birch_log5_v_horizontal", "x": 90, "y": 90},
+	{ "model": "minecraft:block/birch_log6_v_horizontal", "x": 90, "y": 90},
+	
+	{ "model": "minecraft:block/birch_log_hv_horizontal", "x": 90, "y": 90},
+	{ "model": "minecraft:block/birch_log1_hv_horizontal", "x": 90, "y": 90},
+	{ "model": "minecraft:block/birch_log2_hv_horizontal", "x": 90, "y": 90},
+	{ "model": "minecraft:block/birch_log3_hv_horizontal", "x": 90, "y": 90},
+	{ "model": "minecraft:block/birch_log4_hv_horizontal", "x": 90, "y": 90},
+	{ "model": "minecraft:block/birch_log5_hv_horizontal", "x": 90, "y": 90},
+	{ "model": "minecraft:block/birch_log6_hv_horizontal", "x": 90, "y": 90}
+	],
+	
+	
+	
+    "axis=y": [
+	{ "model": "minecraft:block/birch_log"},
+	{ "model": "minecraft:block/birch_log1"},
+	{ "model": "minecraft:block/birch_log2"},
+	{ "model": "minecraft:block/birch_log3"},
+	{ "model": "minecraft:block/birch_log4"},
+	{ "model": "minecraft:block/birch_log5"},
+    { "model": "minecraft:block/birch_log6"},
+	
+	{ "model": "minecraft:block/birch_log_h"},
+	{ "model": "minecraft:block/birch_log1_h"},
+	{ "model": "minecraft:block/birch_log2_h"},
+	{ "model": "minecraft:block/birch_log3_h"},
+	{ "model": "minecraft:block/birch_log4_h"},
+	{ "model": "minecraft:block/birch_log5_h"},
+    { "model": "minecraft:block/birch_log6_h"},
+	
+    { "model": "minecraft:block/birch_log_v"},
+	{ "model": "minecraft:block/birch_log1_v"},
+	{ "model": "minecraft:block/birch_log2_v"},
+	{ "model": "minecraft:block/birch_log3_v"},
+	{ "model": "minecraft:block/birch_log4_v"},
+	{ "model": "minecraft:block/birch_log5_v"},
+    { "model": "minecraft:block/birch_log6_v"},
+	
+	{ "model": "minecraft:block/birch_log_hv"},
+	{ "model": "minecraft:block/birch_log1_hv"},
+	{ "model": "minecraft:block/birch_log2_hv"},
+	{ "model": "minecraft:block/birch_log3_hv"},
+	{ "model": "minecraft:block/birch_log4_hv"},
+	{ "model": "minecraft:block/birch_log5_hv"},
+    { "model": "minecraft:block/birch_log6_hv"}
+	],
+	
+	
+	
+    "axis=z": [
+	{ "model": "minecraft:block/birch_log_horizontal", "x": 90},
+	{ "model": "minecraft:block/birch_log1_horizontal", "x": 90},
+	{ "model": "minecraft:block/birch_log2_horizontal", "x": 90},
+	{ "model": "minecraft:block/birch_log3_horizontal", "x": 90},
+	{ "model": "minecraft:block/birch_log4_horizontal", "x": 90},
+	{ "model": "minecraft:block/birch_log5_horizontal", "x": 90},
+	{ "model": "minecraft:block/birch_log6_horizontal", "x": 90},
+	
+	{ "model": "minecraft:block/birch_log_h_horizontal", "x": 90},
+	{ "model": "minecraft:block/birch_log1_h_horizontal", "x": 90},
+	{ "model": "minecraft:block/birch_log2_h_horizontal", "x": 90},
+	{ "model": "minecraft:block/birch_log3_h_horizontal", "x": 90},
+	{ "model": "minecraft:block/birch_log4_h_horizontal", "x": 90},
+	{ "model": "minecraft:block/birch_log5_h_horizontal", "x": 90},
+	{ "model": "minecraft:block/birch_log6_h_horizontal", "x": 90},
+	
+	{ "model": "minecraft:block/birch_log_v_horizontal", "x": 90},
+	{ "model": "minecraft:block/birch_log1_v_horizontal", "x": 90},
+	{ "model": "minecraft:block/birch_log2_v_horizontal", "x": 90},
+	{ "model": "minecraft:block/birch_log3_v_horizontal", "x": 90},
+	{ "model": "minecraft:block/birch_log4_v_horizontal", "x": 90},
+	{ "model": "minecraft:block/birch_log5_v_horizontal", "x": 90},
+	{ "model": "minecraft:block/birch_log6_v_horizontal", "x": 90},
+	
+	{ "model": "minecraft:block/birch_log_hv_horizontal", "x": 90},
+	{ "model": "minecraft:block/birch_log1_hv_horizontal", "x": 90},
+	{ "model": "minecraft:block/birch_log2_hv_horizontal", "x": 90},
+	{ "model": "minecraft:block/birch_log3_hv_horizontal", "x": 90},
+	{ "model": "minecraft:block/birch_log4_hv_horizontal", "x": 90},
+	{ "model": "minecraft:block/birch_log5_hv_horizontal", "x": 90},
+	{ "model": "minecraft:block/birch_log6_hv_horizontal", "x": 90}
+	]
+  }
+}

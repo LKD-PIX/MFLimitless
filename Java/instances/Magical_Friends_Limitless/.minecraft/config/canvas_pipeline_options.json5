@@ -1,0 +1,120 @@
+{
+	"canvas:basic_light_config": {
+		"ao_shading_mode": "normal",
+		"diffuse_shading_mode": "normal"
+	},
+	"canvas:fog_config": {
+		"fog_mode": "vanilla"
+	},
+	"canvas:handheld_light_config": {
+		"handheld_light_radius": 10
+	},
+	"canvas:bloom_config": {
+		"bloom_toggle": true,
+		"bloom_intensity": 0.10000000149011612,
+		"bloom_downsample_dist": 1.0,
+		"bloom_upsample_dist": 0.10000000149011612,
+		"bloom_cutoff": 0.019999999552965164
+	},
+	"lumi:shadow_config": {
+		"shadow_filtering": "pcf_low",
+		"name_tag_shadow": false
+	},
+	"lumi:lighting_config": {
+		"tone_profile": "high_contrast",
+		"block_light_mode": "warm",
+		"handheld_light_radius": 8,
+		"indoors_brightness": 18,
+		"outdoors_brightness": 8,
+		"sky_ambient_brightness": 12,
+		"ambient_brightness": 3,
+		"night_ambient_brightness": 2,
+		"nether_ambient_brightness": 8,
+		"end_ambient_brightness": 10
+	},
+	"lumi:ssao_config": {
+		"ambient_occlusion": "vanilla_and_ssao",
+		"ssao_num_steps": 1,
+		"ssao_num_directions": 3,
+		"ssao_radius": 4.0,
+		"ssao_bias": 0.6000000238418579,
+		"ssao_intensity": 2.5,
+		"ssao_use_attenuation": true,
+		"ssao_glow": true
+	},
+	"lumi:reflection_config": {
+		"reflection_profile": "medium",
+		"sky_reflection_profile": "minimum",
+		"reflection_maximum_roughness_relative": 7
+	},
+	"lumi:effects_config": {
+		"compute_exposure": true,
+		"manual_exposure_relative": 4,
+		"exposure_smoothing_frames": 50.0,
+		"bloom_intensity": 35,
+		"bloom_scale": 46,
+		"lightrays_mode": "volumetric",
+		"lightrays_blending": "linear_dodge",
+		"lightrays_intensity": 10,
+		"refraction_effect": true
+	},
+	"lumi:sky_config": {
+		"sky_mode": "lumi",
+		"lumi_sky_color": "natural_azure",
+		"lumi_sky_red": 0.375,
+		"lumi_sky_green": 0.550000011920929,
+		"lumi_sky_blue": 0.75,
+		"lumi_star_size": 4,
+		"lumi_star_density": 1,
+		"lumi_star_brightness": 13
+	},
+	"lumi:clouds_config": {
+		"cloud_rendering": "volumetric",
+		"parallax_cloud_altitude": 100,
+		"parallax_cloud_thickness": 40,
+		"volumetric_cloud_altitude": 125,
+		"volumetric_cloud_mode": "world",
+		"cloud_coverage_relative": 1,
+		"cloud_puffiness_relative": 1,
+		"cloud_brightness_relative": 3,
+		"raincloud_canopy": 4
+	},
+	"lumi:fog_config": {
+		"fog_far_chunks": 8,
+		"fog_density_relative": 1,
+		"underwater_fog_far_chunks": 8,
+		"underwater_fog_density_relative": 10,
+		"horizon_blend_relative": 5
+	},
+	"lumi:water_config": {
+		"water_color": "natural_blue",
+		"water_caustics": true
+	},
+	"lumi:aesthetics_config": {
+		"hurt_mode": "glitch_city",
+		"glint_mode": "glint_texture",
+		"glint_style": "glint_a",
+		"glint_red": 0.6549999713897705,
+		"glint_green": 0.3330000042915344,
+		"glint_blue": 1.0,
+		"toon_outline": false
+	},
+	"lumi:experimental_config": {
+		"translucent_layering": "fast",
+		"shadow_workaround": true,
+		"half_reflection_resolution": true,
+		"reflection_on_hand": true,
+		"rain_puddles": true,
+		"exposure_func": "average",
+		"blocklight_specular_mode": "fancy",
+		"antialiasing": "taa"
+	},
+	"lumi:debug_config": {
+		"dithering_mode": "blue_noise",
+		"parallax_cloud_density": 1.0,
+		"exposure_debug": false,
+		"taa_debug_render": "off",
+		"cloud_time": "world",
+		"overlay_debug": "none"
+	}
+}

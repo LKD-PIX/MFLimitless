@@ -1,0 +1,72 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"5": "item/book_table2",
+		"particle": "block/enchanting_table_bottom",
+		"1_4": "item/book_table"
+	},
+	"elements": [
+		{
+			"from": [5, 11.5, 3.5],
+			"to": [10.75, 12.5, 12.5],
+			"faces": {
+				"north": {"uv": [4, 14, 11, 15], "texture": "#5"},
+				"east": {"uv": [13, 0, 14, 10], "texture": "#1_4"},
+				"south": {"uv": [0, 7, 6, 8], "texture": "#5"},
+				"west": {"uv": [0, 15, 10, 16], "texture": "#5"},
+				"up": {"uv": [0, 0, 7, 10], "texture": "#1_4"},
+				"down": {"uv": [0, 0, 7, 10], "texture": "#1_4"}
+			}
+		},
+		{
+			"from": [5, 14.5, 3.5],
+			"to": [10.75, 15, 12.5],
+			"faces": {
+				"north": {"uv": [4, 14, 11, 15], "texture": "#5"},
+				"east": {"uv": [12, 0, 14, 10], "texture": "#1_4"},
+				"south": {"uv": [0, 7, 7, 8], "texture": "#5"},
+				"west": {"uv": [0, 15, 10, 16], "texture": "#5"},
+				"up": {"uv": [0, 0, 7, 10], "texture": "#1_4"},
+				"down": {"uv": [0, 0, 7, 10], "texture": "#1_4"}
+			}
+		},
+		{
+			"from": [10.25, 12.5, 3.5],
+			"to": [10.75, 14.5, 12.5],
+			"faces": {
+				"north": {"uv": [13, 9, 15, 10], "texture": "#1_4"},
+				"east": {"uv": [0, 1, 10, 3], "texture": "#5"},
+				"south": {"uv": [4, 5, 6, 6], "texture": "#1_4"},
+				"west": {"uv": [0, 1, 10, 3], "texture": "#5"},
+				"up": {"uv": [1, 0, 3, 5], "texture": "#1_4"},
+				"down": {"uv": [0, 0, 6, 9], "texture": "#1_4"}
+			}
+		},
+		{
+			"from": [5.75, 12.5, 4.25],
+			"to": [10.25, 14.5, 11.75],
+			"faces": {
+				"north": {"uv": [0, 12, 8, 13], "texture": "#1_4"},
+				"east": {"uv": [0, 12, 8, 13], "texture": "#1_4"},
+				"south": {"uv": [0, 12, 8, 13], "texture": "#1_4"},
+				"west": {"uv": [0, 12, 8, 13], "texture": "#1_4"},
+				"up": {"uv": [0, 13, 8, 14], "texture": "#1_4"},
+				"down": {"uv": [0, 13, 8, 14], "texture": "#1_4"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "enchanting_table",
+			"origin": [8, 8, 8],
+			"children": [
+				{
+					"name": "enchanting_table",
+					"origin": [8, 8, 8],
+					"children": [0, 1, 2, 3]
+				}
+			]
+		}
+	]
+}

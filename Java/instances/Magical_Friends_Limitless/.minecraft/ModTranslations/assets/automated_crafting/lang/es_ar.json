@@ -1,0 +1,17 @@
+{
+  "text.autoconfig.automated_crafting.title": "Configuracion de la Mesa de trabajo Automatizada",
+  "item.automated_crafting.auto_crafter": "Mesa de trabajo Automatizada",
+  "block.automated_crafting.auto_crafter": "Mesa de trabajo Automatizada",
+  "text.autoconfig.automated_crafting.option.simpleMode": "Habilitar modo simple",
+  "text.autoconfig.automated_crafting.option.simpleMode.@Tooltip": "En el modo simple se puede establecer un modelo de receta",
+  "text.autoconfig.automated_crafting.option.quasiConnectivity": "Habilitar la Casi-Conectividad",
+  "text.autoconfig.automated_crafting.option.quasiConnectivity.@Tooltip": "Si el bloque que se encuentra encima de un autocrafter está alimentado, el autocrafter es alimentado (pero no actualizado)",
+  "text.autoconfig.automated_crafting.option.redirectsRedstone": "Habilitar la redirección de polvo de Redstone",
+  "text.autoconfig.automated_crafting.option.redirectsRedstone.@Tooltip": "El polvo de redstone al lado de un autocrafter apuntará al autocrafter",
+  "text.autoconfig.automated_crafting.option.craftContinuously": "Fabrica continuamente mientras está encendido",
+  "text.autoconfig.automated_crafting.option.craftContinuously.@Tooltip": "Cuando un autocrafter está activado y contiene una receta válida, esa receta será elaborada inmediatamente",
+  "text.autoconfig.automated_crafting.option.comparatorReadsOutput": "El comparador lee 15 si la salida no está vacía",
+  "text.autoconfig.automated_crafting.option.comparatorReadsOutput.@Tooltip": "Un comparador que lea un autocrafter con cualquier cosa en su ranura de salida leerá 15",
+  "label.automated_crafting.template": "Plantilla",
+  "label.automated_crafting.input": "Entrada"
+}

@@ -1,0 +1,30 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"4": "block/cake_inner4",
+		"bottom": "block/cake_bottom",
+		"particle": "block/cake_side",
+		"side": "block/cake_side"
+	},
+	"elements": [
+		{
+			"from": [1, 0, 1],
+			"to": [15, 7, 15],
+			"faces": {
+				"north": {"uv": [1, 8, 15, 16], "texture": "#side"},
+				"east": {"uv": [1, 8, 15, 16], "texture": "#side"},
+				"south": {"uv": [1, 8, 15, 16], "texture": "#side"},
+				"west": {"uv": [1, 8, 15, 16], "texture": "#side"},
+				"up": {"uv": [1, 1, 15, 15], "rotation": 270, "texture": "#4"},
+				"down": {"uv": [1, 1, 15, 15], "rotation": 90, "texture": "#bottom", "cullface": "down"}
+			}
+		}
+	],
+	"groups": [0,
+		{
+			"name": "cake_slice5",
+			"origin": [8, 8, 8],
+			"children": []
+		}
+	]
+}

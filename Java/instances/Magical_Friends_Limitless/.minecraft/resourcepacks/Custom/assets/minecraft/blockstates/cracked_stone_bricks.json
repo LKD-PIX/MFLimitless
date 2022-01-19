@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "block/cracked_stone_bricks"
+      },
+      {
+        "model": "block/cracked_stone_bricks"
+      },
+      {
+        "model": "block/cracked_stone_bricks"
+      },
+      {
+        "model": "block/cracked_stone_bricks"
+      },
+	  {
+        "model": "block/cracked_stone_bricks"
+      },
+      {
+        "model": "block/cracked_stone_bricks"
+      },
+      {
+        "model": "block/cracked_stone_bricks"
+      },
+      {
+        "model": "block/cracked_stone_bricks"
+      }
+    ]
+  }
+}

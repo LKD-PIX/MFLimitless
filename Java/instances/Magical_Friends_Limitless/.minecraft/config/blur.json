@@ -1,0 +1,12 @@
+{
+  "blurExclusions": [
+    "com.replaymod.lib.de.johni0702.minecraft.gui.container.AbstractGuiOverlay$UserInputGuiScreen",
+    "ai.arcblroth.projectInception.client.InceptionInterfaceScreen",
+    "net.optifine.gui.GuiChatOF"
+  ],
+  "fadeTimeMillis": 1600,
+  "radius": 20,
+  "gradientStartColor": 75000000,
+  "gradientEndColor": 75000000,
+  "showScreenTitle": false
+}

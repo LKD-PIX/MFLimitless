@@ -1,0 +1,54 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "block/lily_pad"
+      },
+      {
+        "model": "block/lily_pad1"
+      },
+	  {
+        "model": "block/lily_pad2"
+      },
+	  {
+        "model": "block/lily_pad3"
+      },
+	  {
+        "model": "block/lily_pad4"
+      },
+	  {
+        "model": "block/lily_pad5"
+      },
+      {
+        "model": "block/lily_pad6"
+      },
+	  {
+        "model": "block/lily_pad7"
+      },
+      {
+        "model": "block/lily_pad8"
+      },
+      {
+        "model": "block/lily_pad9"
+      },
+	  {
+        "model": "block/lily_pad10"
+      },
+	  {
+        "model": "block/lily_pad11"
+      },
+	  {
+        "model": "block/lily_pad12"
+      },
+	  {
+        "model": "block/lily_pad13"
+      },
+      {
+        "model": "block/lily_pad14"
+      },
+	  {
+        "model": "block/lily_pad15"
+      }
+    ]
+  }
+}

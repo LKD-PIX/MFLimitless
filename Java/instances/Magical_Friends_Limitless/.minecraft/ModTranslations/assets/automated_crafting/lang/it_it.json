@@ -1,0 +1,17 @@
+{
+  "text.autoconfig.automated_crafting.title": "Configurazione fabbricazione automatica",
+  "item.automated_crafting.auto_crafter": "Banco da fabbricazione automatico",
+  "block.automated_crafting.auto_crafter": "Banco da fabbricazione automatico",
+  "text.autoconfig.automated_crafting.option.simpleMode": "Attiva modalità semplice",
+  "text.autoconfig.automated_crafting.option.simpleMode.@Tooltip": "In simple mode you can set a recipe template",
+  "text.autoconfig.automated_crafting.option.quasiConnectivity": "Attiva Quasi-Connettività",
+  "text.autoconfig.automated_crafting.option.quasiConnectivity.@Tooltip": "If the block above an auto crafter would be powered, the auto crafter is powered (but not updated)",
+  "text.autoconfig.automated_crafting.option.redirectsRedstone": "Attiva il reindirizzamento della polvere di pietrarossa",
+  "text.autoconfig.automated_crafting.option.redirectsRedstone.@Tooltip": "Redstone dust next to auto an crafter will point into the auto crafter",
+  "text.autoconfig.automated_crafting.option.craftContinuously": "Fabbrica continuamente mentre contiene energia",
+  "text.autoconfig.automated_crafting.option.craftContinuously.@Tooltip": "When an auto crafter is powered and contains a valid recipe, that recipe will be crafted immediately",
+  "text.autoconfig.automated_crafting.option.comparatorReadsOutput": "Il comparatore legge 15 se l'output non è vuoto",
+  "text.autoconfig.automated_crafting.option.comparatorReadsOutput.@Tooltip": "A comparator reading an auto crafter with anything in its output slot will read 15",
+  "label.automated_crafting.template": "Modello",
+  "label.automated_crafting.input": "Input"
+}

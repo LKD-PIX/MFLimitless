@@ -1,0 +1,51 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "block/ground_foliage/flowers/poppy"
+      },
+	  {
+        "model": "block/ground_foliage/flowers/poppy1"
+      },
+	  {
+        "model": "block/ground_foliage/flowers/poppy2"
+      },
+      {
+        "model": "block/ground_foliage/flowers/poppy3"
+      },
+      {
+        "model": "block/ground_foliage/flowers/poppy4"
+      },
+      {
+        "model": "block/ground_foliage/flowers/poppy5"
+      },
+	  {
+        "model": "block/ground_foliage/flowers/poppy6"
+      },
+	  {
+        "model": "block/ground_foliage/flowers/poppy7"
+      },
+      {
+        "model": "block/ground_foliage/flowers/poppy8"
+      },
+      {
+        "model": "block/ground_foliage/flowers/poppy9"
+      },
+	  {
+        "model": "block/ground_foliage/flowers/poppy10"
+      },
+	  {
+        "model": "block/ground_foliage/flowers/poppy11"
+      },
+      {
+        "model": "block/ground_foliage/flowers/poppy12"
+      },
+      {
+        "model": "block/ground_foliage/flowers/poppy13"
+      },
+      {
+        "model": "block/ground_foliage/flowers/poppy14"
+      }
+    ]
+  }
+}

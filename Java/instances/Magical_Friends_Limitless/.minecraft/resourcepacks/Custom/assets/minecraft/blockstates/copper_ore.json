@@ -1,0 +1,60 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "block/copper_ore"
+      },
+      {
+        "model": "block/copper_ore1"
+      },
+      {
+        "model": "block/copper_ore2"
+      },
+      {
+        "model": "block/copper_ore3"
+      },
+	  {
+        "model": "block/copper_ore4"
+      },
+      {
+        "model": "block/copper_ore5"
+      },
+      {
+        "model": "block/copper_ore6"
+      },
+      {
+        "model": "block/copper_ore7"
+      },
+      {
+        "model": "block/copper_ore8"
+      },
+      {
+        "model": "block/copper_ore9"
+      },
+      {
+        "model": "block/copper_ore10"
+      },
+      {
+        "model": "block/copper_ore11"
+      },
+      {
+        "model": "block/copper_ore12"
+      },
+      {
+        "model": "block/copper_ore13"
+      },
+      {
+        "model": "block/copper_ore14"
+      },
+      {
+        "model": "block/copper_ore15"
+      },
+      {
+        "model": "block/copper_ore16"
+      },
+      {
+        "model": "block/copper_ore17"
+      }
+    ]
+  }
+}

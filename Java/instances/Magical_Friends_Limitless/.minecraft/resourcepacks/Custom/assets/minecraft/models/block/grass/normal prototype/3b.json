@@ -1,0 +1,53 @@
+{
+	"ambientocclusion": false,
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "block/grass/normal/2",
+		"particle": "block/grass/normal/2",
+		"cross": "block/grass/normal/3c"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 0],
+			"rotation": {"angle": -45, "axis": "y", "origin": [0, -2, 0], "rescale": true},			
+			"shade": false,
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#cross", "tintindex": 0},
+				"east": {"uv": [0, 0, 0, 8], "texture": "#cross", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#cross", "tintindex": 0},
+				"west": {"uv": [0, 0, 0, 8], "texture": "#cross", "tintindex": 0},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#cross", "tintindex": 0},
+				"down": {"uv": [0, 0, 16, 0], "texture": "#cross", "tintindex": 0}
+			}
+		},
+		{
+			"from": [6.5, 0, -3.5],
+			"to": [6.5, 16, 12.5],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [0, -2, 0], "rescale": true},			
+			"shade": false,
+			"faces": {
+				"north": {"uv": [0, 0, 0, 8], "texture": "#1", "tintindex": 0},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+				"south": {"uv": [0, 0, 0, 8], "texture": "#1", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+				"up": {"uv": [0, 0, 16, 0], "rotation": 90, "texture": "#1", "tintindex": 0},
+				"down": {"uv": [0, 0, 16, 0], "rotation": 270, "texture": "#1", "tintindex": 0}
+			}
+		},
+		{
+			"from": [-4, -1, 10],
+			"to": [12, 15, 10],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [0, -2, 0], "rescale": true},			
+			"shade": false,
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#cross", "tintindex": 0},
+				"east": {"uv": [0, 0, 0, 8], "texture": "#cross", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#cross", "tintindex": 0},
+				"west": {"uv": [0, 0, 0, 8], "texture": "#cross", "tintindex": 0},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#cross", "tintindex": 0},
+				"down": {"uv": [0, 0, 16, 0], "texture": "#cross", "tintindex": 0}
+			}
+		}
+	]
+}

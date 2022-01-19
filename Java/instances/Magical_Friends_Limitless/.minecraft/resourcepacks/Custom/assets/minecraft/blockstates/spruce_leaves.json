@@ -1,0 +1,540 @@
+{
+  "variants": {
+    "persistent=true": [
+      {
+        "model": "block/spruce_leaves"
+      },
+	  {
+        "model": "block/spruce_leaves"
+      },
+      {
+        "model": "block/spruce_leaves"
+      },
+      {
+        "model": "block/spruce_leaves"
+      },
+	  {
+        "model": "block/spruce_leaves"
+      },
+	  {
+        "model": "block/spruce_leaves"
+      },
+	  {
+        "model": "block/spruce_leaves"
+      },
+	  {
+        "model": "block/spruce_leaves"
+      },
+	  
+	  {
+        "model": "block/spruce_leaves1"
+      },
+      {
+        "model": "block/spruce_leaves1"
+      },
+      {
+        "model": "block/spruce_leaves1"
+      },
+	  {
+        "model": "block/spruce_leaves1"
+      },	  
+	  {
+        "model": "block/spruce_leaves1"
+      },
+	  {
+        "model": "block/spruce_leaves1"
+      },
+	  {
+        "model": "block/spruce_leaves1"
+      },
+	  {
+        "model": "block/spruce_leaves1"
+      },
+
+
+	  
+	  
+      {
+        "model": "block/spruce_leaves_pinecone"
+      },
+      {
+        "model": "block/spruce_leaves_pinecone1"
+      },
+      {
+        "model": "block/spruce_leaves_pinecone2"
+      },
+	  {
+        "model": "block/spruce_leaves_pinecone3"
+      },
+      {
+        "model": "block/spruce_leaves_pinecone4"
+      },
+      {
+        "model": "block/spruce_leaves_pinecone5"
+      },
+	  {
+        "model": "block/spruce_leaves_pinecone6"
+      }
+    ],
+    "persistent=false,distance=1": [
+      {
+        "model": "block/spruce_leaves"
+      },
+	  {
+        "model": "block/spruce_leaves"
+      },
+      {
+        "model": "block/spruce_leaves"
+      },
+      {
+        "model": "block/spruce_leaves"
+      },
+	  {
+        "model": "block/spruce_leaves"
+      },
+	  {
+        "model": "block/spruce_leaves"
+      },
+	  {
+        "model": "block/spruce_leaves"
+      },
+	  {
+        "model": "block/spruce_leaves"
+      },
+	  
+	  {
+        "model": "block/spruce_leaves1"
+      },
+      {
+        "model": "block/spruce_leaves1"
+      },
+      {
+        "model": "block/spruce_leaves1"
+      },
+	  {
+        "model": "block/spruce_leaves1"
+      },	  
+	  {
+        "model": "block/spruce_leaves1"
+      },
+	  {
+        "model": "block/spruce_leaves1"
+      },
+	  {
+        "model": "block/spruce_leaves1"
+      },
+	  {
+        "model": "block/spruce_leaves1"
+      },
+
+
+	  
+	  
+      {
+        "model": "block/spruce_leaves_pinecone"
+      },
+      {
+        "model": "block/spruce_leaves_pinecone1"
+      },
+      {
+        "model": "block/spruce_leaves_pinecone2"
+      },
+	  {
+        "model": "block/spruce_leaves_pinecone3"
+      },
+      {
+        "model": "block/spruce_leaves_pinecone4"
+      },
+      {
+        "model": "block/spruce_leaves_pinecone5"
+      },
+	  {
+        "model": "block/spruce_leaves_pinecone6"
+      }
+    ],
+    "persistent=false,distance=2": [
+      {
+        "model": "block/spruce_leaves"
+      },
+	  {
+        "model": "block/spruce_leaves"
+      },
+      {
+        "model": "block/spruce_leaves"
+      },
+      {
+        "model": "block/spruce_leaves"
+      },
+	  {
+        "model": "block/spruce_leaves"
+      },
+	  {
+        "model": "block/spruce_leaves"
+      },
+	  {
+        "model": "block/spruce_leaves"
+      },
+	  {
+        "model": "block/spruce_leaves"
+      },
+	  
+	  {
+        "model": "block/spruce_leaves1"
+      },
+      {
+        "model": "block/spruce_leaves1"
+      },
+      {
+        "model": "block/spruce_leaves1"
+      },
+	  {
+        "model": "block/spruce_leaves1"
+      },	  
+	  {
+        "model": "block/spruce_leaves1"
+      },
+	  {
+        "model": "block/spruce_leaves1"
+      },
+	  {
+        "model": "block/spruce_leaves1"
+      },
+	  {
+        "model": "block/spruce_leaves1"
+      },
+
+
+	  
+	  
+      {
+        "model": "block/spruce_leaves_pinecone"
+      },
+      {
+        "model": "block/spruce_leaves_pinecone1"
+      },
+      {
+        "model": "block/spruce_leaves_pinecone2"
+      },
+	  {
+        "model": "block/spruce_leaves_pinecone3"
+      },
+      {
+        "model": "block/spruce_leaves_pinecone4"
+      },
+      {
+        "model": "block/spruce_leaves_pinecone5"
+      },
+	  {
+        "model": "block/spruce_leaves_pinecone6"
+      }
+    ],
+    "persistent=false,distance=3": [
+      {
+        "model": "block/spruce_leaves"
+      },
+	  {
+        "model": "block/spruce_leaves"
+      },
+      {
+        "model": "block/spruce_leaves"
+      },
+      {
+        "model": "block/spruce_leaves"
+      },
+	  {
+        "model": "block/spruce_leaves"
+      },
+	  {
+        "model": "block/spruce_leaves"
+      },
+	  {
+        "model": "block/spruce_leaves"
+      },
+	  {
+        "model": "block/spruce_leaves"
+      },
+	  
+	  {
+        "model": "block/spruce_leaves1"
+      },
+      {
+        "model": "block/spruce_leaves1"
+      },
+      {
+        "model": "block/spruce_leaves1"
+      },
+	  {
+        "model": "block/spruce_leaves1"
+      },	  
+	  {
+        "model": "block/spruce_leaves1"
+      },
+	  {
+        "model": "block/spruce_leaves1"
+      },
+	  {
+        "model": "block/spruce_leaves1"
+      },
+	  {
+        "model": "block/spruce_leaves1"
+      },
+
+
+	  
+	  
+      {
+        "model": "block/spruce_leaves_pinecone"
+      },
+      {
+        "model": "block/spruce_leaves_pinecone1"
+      },
+      {
+        "model": "block/spruce_leaves_pinecone2"
+      },
+	  {
+        "model": "block/spruce_leaves_pinecone3"
+      },
+      {
+        "model": "block/spruce_leaves_pinecone4"
+      },
+      {
+        "model": "block/spruce_leaves_pinecone5"
+      },
+	  {
+        "model": "block/spruce_leaves_pinecone6"
+      }
+    ],
+    "persistent=false,distance=4": [
+      {
+        "model": "block/spruce_leaves"
+      },
+	  {
+        "model": "block/spruce_leaves"
+      },
+      {
+        "model": "block/spruce_leaves"
+      },
+      {
+        "model": "block/spruce_leaves"
+      },
+	  {
+        "model": "block/spruce_leaves"
+      },
+	  {
+        "model": "block/spruce_leaves"
+      },
+	  {
+        "model": "block/spruce_leaves"
+      },
+	  {
+        "model": "block/spruce_leaves"
+      },
+	  
+	  {
+        "model": "block/spruce_leaves1"
+      },
+      {
+        "model": "block/spruce_leaves1"
+      },
+      {
+        "model": "block/spruce_leaves1"
+      },
+	  {
+        "model": "block/spruce_leaves1"
+      },	  
+	  {
+        "model": "block/spruce_leaves1"
+      },
+	  {
+        "model": "block/spruce_leaves1"
+      },
+	  {
+        "model": "block/spruce_leaves1"
+      },
+	  {
+        "model": "block/spruce_leaves1"
+      },
+
+
+	  
+	  
+      {
+        "model": "block/spruce_leaves_pinecone"
+      },
+      {
+        "model": "block/spruce_leaves_pinecone1"
+      },
+      {
+        "model": "block/spruce_leaves_pinecone2"
+      },
+	  {
+        "model": "block/spruce_leaves_pinecone3"
+      },
+      {
+        "model": "block/spruce_leaves_pinecone4"
+      },
+      {
+        "model": "block/spruce_leaves_pinecone5"
+      },
+	  {
+        "model": "block/spruce_leaves_pinecone6"
+      }
+    ],
+    "persistent=false,distance=5": [
+      {
+        "model": "block/spruce_leaves"
+      },
+	  {
+        "model": "block/spruce_leaves"
+      },
+      {
+        "model": "block/spruce_leaves"
+      },
+      {
+        "model": "block/spruce_leaves"
+      },
+	  {
+        "model": "block/spruce_leaves"
+      },
+	  {
+        "model": "block/spruce_leaves"
+      },
+	  {
+        "model": "block/spruce_leaves"
+      },
+	  {
+        "model": "block/spruce_leaves"
+      },
+	  
+	  {
+        "model": "block/spruce_leaves1"
+      },
+      {
+        "model": "block/spruce_leaves1"
+      },
+      {
+        "model": "block/spruce_leaves1"
+      },
+	  {
+        "model": "block/spruce_leaves1"
+      },	  
+	  {
+        "model": "block/spruce_leaves1"
+      },
+	  {
+        "model": "block/spruce_leaves1"
+      },
+	  {
+        "model": "block/spruce_leaves1"
+      },
+	  {
+        "model": "block/spruce_leaves1"
+      },
+
+
+	  
+	  
+      {
+        "model": "block/spruce_leaves_pinecone"
+      },
+      {
+        "model": "block/spruce_leaves_pinecone1"
+      },
+      {
+        "model": "block/spruce_leaves_pinecone2"
+      },
+	  {
+        "model": "block/spruce_leaves_pinecone3"
+      },
+      {
+        "model": "block/spruce_leaves_pinecone4"
+      },
+      {
+        "model": "block/spruce_leaves_pinecone5"
+      },
+	  {
+        "model": "block/spruce_leaves_pinecone6"
+      }
+    ],
+    "persistent=false,distance=6": [
+      {
+        "model": "block/spruce_leaves"
+      },
+	  {
+        "model": "block/spruce_leaves"
+      },
+      {
+        "model": "block/spruce_leaves"
+      },
+      {
+        "model": "block/spruce_leaves"
+      },
+	  {
+        "model": "block/spruce_leaves"
+      },
+	  {
+        "model": "block/spruce_leaves"
+      },
+	  {
+        "model": "block/spruce_leaves"
+      },
+	  {
+        "model": "block/spruce_leaves"
+      },
+	  
+	  {
+        "model": "block/spruce_leaves1"
+      },
+      {
+        "model": "block/spruce_leaves1"
+      },
+      {
+        "model": "block/spruce_leaves1"
+      },
+	  {
+        "model": "block/spruce_leaves1"
+      },	  
+	  {
+        "model": "block/spruce_leaves1"
+      },
+	  {
+        "model": "block/spruce_leaves1"
+      },
+	  {
+        "model": "block/spruce_leaves1"
+      },
+	  {
+        "model": "block/spruce_leaves1"
+      },
+
+
+	  
+	  
+      {
+        "model": "block/spruce_leaves_pinecone"
+      },
+      {
+        "model": "block/spruce_leaves_pinecone1"
+      },
+      {
+        "model": "block/spruce_leaves_pinecone2"
+      },
+	  {
+        "model": "block/spruce_leaves_pinecone3"
+      },
+      {
+        "model": "block/spruce_leaves_pinecone4"
+      },
+      {
+        "model": "block/spruce_leaves_pinecone5"
+      },
+	  {
+        "model": "block/spruce_leaves_pinecone6"
+      }
+	],
+    "persistent=false,distance=7": [
+      {"model": "minecraft:block/spruce_leaves_dead"},
+      {"model": "minecraft:block/spruce_leaves1_dead"}
+    ]
+  }
+}

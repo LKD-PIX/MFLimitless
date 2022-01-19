@@ -1,0 +1,141 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "block/cobblestone"
+      },
+      {
+        "model": "block/cobblestonea"
+      },
+	  {
+        "model": "block/cobblestoneb"
+      },
+	  {
+        "model": "block/cobblestonec"
+      },
+	  {
+        "model": "block/cobblestoned"
+      },
+	  
+	  
+	  {
+        "model": "block/cobblestone1"
+      },
+      {
+        "model": "block/cobblestone1a"
+      },
+	  {
+        "model": "block/cobblestone1b"
+      },
+      {
+        "model": "block/cobblestone1c"
+      },
+      {
+        "model": "block/cobblestone1d"
+      },
+	  
+	  
+	  {
+        "model": "block/cobblestone2"
+      },
+	  {
+        "model": "block/cobblestone2a"
+      },
+	  {
+        "model": "block/cobblestone2b"
+      },
+	  {
+        "model": "block/cobblestone2c"
+      },
+      {
+        "model": "block/cobblestone2d"
+      },
+	  
+	  
+	  {
+        "model": "block/cobblestone3"
+      },
+      {
+        "model": "block/cobblestone3a"
+      },
+      {
+        "model": "block/cobblestone3b"
+      },
+	  {
+        "model": "block/cobblestone3c"
+      },
+	  {
+        "model": "block/cobblestone3d"
+      },
+	  
+	  
+	  {
+        "model": "block/cobblestone4"
+      },
+	  {
+        "model": "block/cobblestone4a"
+      },
+      {
+        "model": "block/cobblestone4b"
+      },
+	  {
+        "model": "block/cobblestone4c"
+      },
+      {
+        "model": "block/cobblestone4d"
+      },
+	  
+	  
+      {
+        "model": "block/cobblestone5"
+      },
+	  {
+        "model": "block/cobblestone5a"
+      },
+	  {
+        "model": "block/cobblestone5b"
+      },
+	  {
+        "model": "block/cobblestone5c"
+      },
+	  {
+        "model": "block/cobblestone5d"
+      },
+	  
+	  
+	  {
+        "model": "block/cobblestone6"
+      },
+	  {
+        "model": "block/cobblestone6a"
+      },
+      {
+        "model": "block/cobblestone6b"
+      },
+	  {
+        "model": "block/cobblestone6c"
+      },
+      {
+        "model": "block/cobblestone6d"
+      },
+	  
+	  
+      {
+        "model": "block/cobblestone7"
+      },
+	  {
+        "model": "block/cobblestone7a"
+      },
+	  {
+        "model": "block/cobblestone7b"
+      },
+	  {
+        "model": "block/cobblestone7c"
+      },
+	  {
+        "model": "block/cobblestone7d"
+      }
+
+    ]
+  }
+}
