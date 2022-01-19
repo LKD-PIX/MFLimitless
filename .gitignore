@@ -333,9 +333,10 @@ ASALocalRun/
 # Local History for Visual Studio
 .localhistory/
 
-MFLimitless\Java\instances\Magical_Friends_Limitless\.minecraft\saves\**
-MFLimitless\Java\instances\Magical_Friends_Limitless\.minecraft\logs\**
-MFLimitless\Java\instances\Magical_Friends_Limitless\.minecraft\crashreports\**
-MFLimitless\Java\instances\Magical_Friends_Limitless\.minecraft\usercache.json
-MFLimitless\Java\multimc.cfg
-MFLimitless\Java\instances\_LAUNCHER_TEMP_\**
+Java/instances/Magical_Friends_Limitless/.minecraft/saves/**
+Java/instances/Magical_Friends_Limitless/.minecraft/logs/**
+Java/instances/Magical_Friends_Limitless/.minecraft/crashreports/**
+Java/instances/Magical_Friends_Limitless/.minecraft/usercache.json
+Java/multimc.cfg
+Java/instances/_LAUNCHER_TEMP_/**
+Java/instances/Magical_Friends_Limitless/.minecraft/XaeroWaypoints/**
