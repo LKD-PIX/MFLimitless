@@ -1,3 +1,3 @@
 # MFLimitless
 
-Click "Code" -> "Download Zip" in the upper right corner
+Click "Code" -> "Download ZIP" in the upper right corner
