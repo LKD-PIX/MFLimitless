@@ -15,3 +15,4 @@ Java/instances/Magical_Friends_Limitless/.minecraft/launcher_profiles.json
 Java/instances/Magical_Friends_Limitless/.minecraft/.fabric/processedMods/**
 Java/instances/Magical_Friends_Limitless/.minecraft/local/ftbchunks/data/**
 Java/instances/Magical_Friends_Limitless/.minecraft/XaeroWaypoints_BACKUP*/**
+*.disabled
